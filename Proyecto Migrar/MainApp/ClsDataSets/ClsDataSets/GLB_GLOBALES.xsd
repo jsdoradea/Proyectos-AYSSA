@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GLB_GLOBALES" targetNamespace="http://tempuri.org/GLB_GLOBALES.xsd" xmlns:mstns="http://tempuri.org/GLB_GLOBALES.xsd" xmlns="http://tempuri.org/GLB_GLOBALES.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GLB_GLOBALES" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="GLB_GLOBALES" msprop:Generator_UserDSName="GLB_GLOBALES" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GLB_PERSONAS" msprop:Generator_UserTableName="GLB_PERSONAS" msprop:Generator_RowDeletedName="GLB_PERSONASRowDeleted" msprop:Generator_TableClassName="GLB_PERSONASDataTable" msprop:Generator_RowChangedName="GLB_PERSONASRowChanged" msprop:Generator_RowClassName="GLB_PERSONASRow" msprop:Generator_RowChangingName="GLB_PERSONASRowChanging" msprop:Generator_RowEvArgName="GLB_PERSONASRowChangeEvent" msprop:Generator_RowEvHandlerName="GLB_PERSONASRowChangeEventHandler" msprop:Generator_TablePropName="GLB_PERSONAS" msprop:Generator_TableVarName="tableGLB_PERSONAS" msprop:Generator_RowDeletingName="GLB_PERSONASRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_PERSONA" msprop:Generator_UserColumnName="CD_PERSONA" msprop:Generator_ColumnPropNameInRow="CD_PERSONA" msprop:Generator_ColumnVarNameInTable="columnCD_PERSONA" msprop:Generator_ColumnPropNameInTable="CD_PERSONAColumn" type="xs:string" />
+              <xs:element name="DS_NOMBRE" msprop:Generator_UserColumnName="DS_NOMBRE" msprop:Generator_ColumnPropNameInRow="DS_NOMBRE" msprop:Generator_ColumnVarNameInTable="columnDS_NOMBRE" msprop:Generator_ColumnPropNameInTable="DS_NOMBREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_APELLIDO" msprop:Generator_UserColumnName="DS_APELLIDO" msprop:Generator_ColumnPropNameInRow="DS_APELLIDO" msprop:Generator_ColumnVarNameInTable="columnDS_APELLIDO" msprop:Generator_ColumnPropNameInTable="DS_APELLIDOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="USUA_CREA" msprop:Generator_UserColumnName="USUA_CREA" msprop:Generator_ColumnPropNameInRow="USUA_CREA" msprop:Generator_ColumnVarNameInTable="columnUSUA_CREA" msprop:Generator_ColumnPropNameInTable="USUA_CREAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FECH_CREA" msprop:Generator_UserColumnName="FECH_CREA" msprop:Generator_ColumnPropNameInRow="FECH_CREA" msprop:Generator_ColumnVarNameInTable="columnFECH_CREA" msprop:Generator_ColumnPropNameInTable="FECH_CREAColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="USUA_ACTU" msprop:Generator_UserColumnName="USUA_ACTU" msprop:Generator_ColumnPropNameInRow="USUA_ACTU" msprop:Generator_ColumnVarNameInTable="columnUSUA_ACTU" msprop:Generator_ColumnPropNameInTable="USUA_ACTUColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FECH_ACTU" msprop:Generator_UserColumnName="FECH_ACTU" msprop:Generator_ColumnPropNameInRow="FECH_ACTU" msprop:Generator_ColumnVarNameInTable="columnFECH_ACTU" msprop:Generator_ColumnPropNameInTable="FECH_ACTUColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GLB_PERSONAS" />
+      <xs:field xpath="mstns:CD_PERSONA" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

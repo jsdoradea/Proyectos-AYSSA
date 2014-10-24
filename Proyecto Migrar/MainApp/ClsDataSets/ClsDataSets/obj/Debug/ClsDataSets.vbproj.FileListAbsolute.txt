@@ -1,0 +1,10 @@
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\bin\Debug\ClsDataSets.dll.config
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\bin\Debug\ClsDataSets.dll
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\bin\Debug\ClsDataSets.pdb
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\bin\Debug\ClsDataSets.xml
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\obj\Debug\ClsDataSets.Resources.resources
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\obj\Debug\ClsDataSets.vbproj.GenerateResource.Cache
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\obj\Debug\ClsDataSets.dll
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\obj\Debug\ClsDataSets.xml
+F:\Proyecto Migrar\MainApp\ClsDataSets\ClsDataSets\obj\Debug\ClsDataSets.pdb

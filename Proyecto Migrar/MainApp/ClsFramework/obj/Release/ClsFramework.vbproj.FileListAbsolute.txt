@@ -1,0 +1,107 @@
+C:\VS2008\Inheritance\ClsFramework\bin\Release\ClsFramework.dll
+C:\VS2008\Inheritance\ClsFramework\bin\Release\ClsFramework.pdb
+C:\VS2008\Inheritance\ClsFramework\bin\Release\ClsFramework.xml
+C:\VS2008\Inheritance\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+C:\VS2008\Inheritance\ClsFramework\obj\Release\ClsFramework.Resources.resources
+C:\VS2008\Inheritance\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+C:\VS2008\Inheritance\ClsFramework\obj\Release\ClsFramework.dll
+C:\VS2008\Inheritance\ClsFramework\obj\Release\ClsFramework.xml
+C:\VS2008\Inheritance\ClsFramework\obj\Release\ClsFramework.pdb
+C:\VS2008\AARS\ClsFramework\bin\Release\ClsFramework.dll
+C:\VS2008\AARS\ClsFramework\bin\Release\ClsFramework.pdb
+C:\VS2008\AARS\ClsFramework\bin\Release\ClsFramework.xml
+C:\VS2008\AARS\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+C:\VS2008\AARS\ClsFramework\obj\Release\ClsFramework.Resources.resources
+C:\VS2008\AARS\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+C:\VS2008\AARS\ClsFramework\obj\Release\ClsFramework.dll
+C:\VS2008\AARS\ClsFramework\obj\Release\ClsFramework.xml
+C:\VS2008\AARS\ClsFramework\obj\Release\ClsFramework.pdb
+E:\AARS\ClsFramework\bin\Release\ClsFramework.dll
+E:\AARS\ClsFramework\bin\Release\ClsFramework.pdb
+E:\AARS\ClsFramework\bin\Release\ClsFramework.xml
+E:\AARS\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+E:\AARS\ClsFramework\obj\Release\ClsFramework.Resources.resources
+E:\AARS\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+E:\AARS\ClsFramework\obj\Release\ClsFramework.dll
+E:\AARS\ClsFramework\obj\Release\ClsFramework.xml
+E:\AARS\ClsFramework\obj\Release\ClsFramework.pdb
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\bin\Release\ClsFramework.dll
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\bin\Release\ClsFramework.pdb
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\bin\Release\ClsFramework.xml
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\obj\Release\ClsFramework.Resources.resources
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\obj\Release\ClsFramework.dll
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\obj\Release\ClsFramework.xml
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\obj\Release\ClsFramework.pdb
+C:\CV\Dev [Nuevo]\Aars\ClsFramework\bin\Release\ClsFramework.dll.config
+F:\Ayssa\Aars\ClsFramework\bin\Release\ClsFramework.dll.config
+F:\Ayssa\Aars\ClsFramework\bin\Release\ClsFramework.dll
+F:\Ayssa\Aars\ClsFramework\bin\Release\ClsFramework.pdb
+F:\Ayssa\Aars\ClsFramework\bin\Release\ClsFramework.xml
+F:\Ayssa\Aars\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+F:\Ayssa\Aars\ClsFramework\obj\Release\ClsFramework.Resources.resources
+F:\Ayssa\Aars\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+F:\Ayssa\Aars\ClsFramework\obj\Release\ClsFramework.dll
+F:\Ayssa\Aars\ClsFramework\obj\Release\ClsFramework.xml
+F:\Ayssa\Aars\ClsFramework\obj\Release\ClsFramework.pdb
+D:\Fuentes\Aars\Aars\ClsFramework\bin\Release\ClsFramework.dll.config
+D:\Fuentes\Aars\Aars\ClsFramework\bin\Release\ClsFramework.dll
+D:\Fuentes\Aars\Aars\ClsFramework\bin\Release\ClsFramework.pdb
+D:\Fuentes\Aars\Aars\ClsFramework\bin\Release\ClsFramework.xml
+D:\Fuentes\Aars\Aars\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+D:\Fuentes\Aars\Aars\ClsFramework\obj\Release\ClsFramework.Resources.resources
+D:\Fuentes\Aars\Aars\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+D:\Fuentes\Aars\Aars\ClsFramework\obj\Release\ClsFramework.dll
+D:\Fuentes\Aars\Aars\ClsFramework\obj\Release\ClsFramework.xml
+D:\Fuentes\Aars\Aars\ClsFramework\obj\Release\ClsFramework.pdb
+D:\Fuentes\Aars\ClsFramework\bin\Release\ClsFramework.dll.config
+D:\Fuentes\Aars\ClsFramework\bin\Release\ClsFramework.dll
+D:\Fuentes\Aars\ClsFramework\bin\Release\ClsFramework.pdb
+D:\Fuentes\Aars\ClsFramework\bin\Release\ClsFramework.xml
+D:\Fuentes\Aars\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+D:\Fuentes\Aars\ClsFramework\obj\Release\ClsFramework.Resources.resources
+D:\Fuentes\Aars\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+D:\Fuentes\Aars\ClsFramework\obj\Release\ClsFramework.dll
+D:\Fuentes\Aars\ClsFramework\obj\Release\ClsFramework.xml
+D:\Fuentes\Aars\ClsFramework\obj\Release\ClsFramework.pdb
+D:\Lisandro\AARS\AARS_App\ClsFramework\bin\Release\ClsFramework.dll.config
+D:\Lisandro\AARS\AARS_App\ClsFramework\bin\Release\ClsFramework.dll
+D:\Lisandro\AARS\AARS_App\ClsFramework\bin\Release\ClsFramework.pdb
+D:\Lisandro\AARS\AARS_App\ClsFramework\bin\Release\ClsFramework.xml
+D:\Lisandro\AARS\AARS_App\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+D:\Lisandro\AARS\AARS_App\ClsFramework\obj\Release\ClsFramework.Resources.resources
+D:\Lisandro\AARS\AARS_App\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+D:\Lisandro\AARS\AARS_App\ClsFramework\obj\Release\ClsFramework.dll
+D:\Lisandro\AARS\AARS_App\ClsFramework\obj\Release\ClsFramework.xml
+D:\Lisandro\AARS\AARS_App\ClsFramework\obj\Release\ClsFramework.pdb
+C:\Compartida\AARS_App\ClsFramework\bin\Release\ClsFramework.dll.config
+C:\Compartida\AARS_App\ClsFramework\bin\Release\ClsFramework.dll
+C:\Compartida\AARS_App\ClsFramework\bin\Release\ClsFramework.pdb
+C:\Compartida\AARS_App\ClsFramework\bin\Release\ClsFramework.xml
+C:\Compartida\AARS_App\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+C:\Compartida\AARS_App\ClsFramework\obj\Release\ClsFramework.Resources.resources
+C:\Compartida\AARS_App\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+C:\Compartida\AARS_App\ClsFramework\obj\Release\ClsFramework.dll
+C:\Compartida\AARS_App\ClsFramework\obj\Release\ClsFramework.xml
+C:\Compartida\AARS_App\ClsFramework\obj\Release\ClsFramework.pdb
+C:\Publicar\AARS_App\ClsFramework\bin\Release\ClsFramework.dll.config
+C:\Publicar\AARS_App\ClsFramework\bin\Release\ClsFramework.dll
+C:\Publicar\AARS_App\ClsFramework\bin\Release\ClsFramework.pdb
+C:\Publicar\AARS_App\ClsFramework\bin\Release\ClsFramework.xml
+C:\Publicar\AARS_App\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+C:\Publicar\AARS_App\ClsFramework\obj\Release\ClsFramework.Resources.resources
+C:\Publicar\AARS_App\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+C:\Publicar\AARS_App\ClsFramework\obj\Release\ClsFramework.dll
+C:\Publicar\AARS_App\ClsFramework\obj\Release\ClsFramework.xml
+C:\Publicar\AARS_App\ClsFramework\obj\Release\ClsFramework.pdb
+C:\compartida\Lisandro\AARS_App\ClsFramework\bin\Release\ClsFramework.dll.config
+C:\compartida\Lisandro\AARS_App\ClsFramework\bin\Release\ClsFramework.dll
+C:\compartida\Lisandro\AARS_App\ClsFramework\bin\Release\ClsFramework.pdb
+C:\compartida\Lisandro\AARS_App\ClsFramework\bin\Release\ClsFramework.xml
+C:\compartida\Lisandro\AARS_App\ClsFramework\obj\Release\ResolveAssemblyReference.cache
+C:\compartida\Lisandro\AARS_App\ClsFramework\obj\Release\ClsFramework.Resources.resources
+C:\compartida\Lisandro\AARS_App\ClsFramework\obj\Release\ClsFramework.vbproj.GenerateResource.Cache
+C:\compartida\Lisandro\AARS_App\ClsFramework\obj\Release\ClsFramework.dll
+C:\compartida\Lisandro\AARS_App\ClsFramework\obj\Release\ClsFramework.xml
+C:\compartida\Lisandro\AARS_App\ClsFramework\obj\Release\ClsFramework.pdb

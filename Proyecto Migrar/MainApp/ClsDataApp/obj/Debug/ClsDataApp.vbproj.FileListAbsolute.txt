@@ -1,0 +1,234 @@
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\VS2008\Inheritance\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\VS2008\Inheritance\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008\Inheritance\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\VS2008\Inheritance\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\VS2008\Inheritance\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\VS2008\Inheritance\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\VS2008\Inheritance\ClsDataApp\obj\Debug\ClsDataApp.pdb
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\VS2008\AARS\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\VS2008\AARS\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008\AARS\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\VS2008\AARS\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\VS2008\AARS\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\VS2008\AARS\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\VS2008\AARS\ClsDataApp\obj\Debug\ClsDataApp.pdb
+E:\AARS\ClsDataApp\bin\Debug\ClsDataApp.dll
+E:\AARS\ClsDataApp\bin\Debug\ClsDataApp.pdb
+E:\AARS\ClsDataApp\bin\Debug\ClsDataApp.xml
+E:\AARS\ClsDataApp\bin\Debug\ClsDataSets.dll
+E:\AARS\ClsDataApp\bin\Debug\ClsFramework.dll
+E:\AARS\ClsDataApp\bin\Debug\ClsFramework.pdb
+E:\AARS\ClsDataApp\bin\Debug\ClsFramework.xml
+E:\AARS\ClsDataApp\bin\Debug\ClsDataSets.pdb
+E:\AARS\ClsDataApp\bin\Debug\ClsDataSets.xml
+E:\AARS\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+E:\AARS\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+E:\AARS\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+E:\AARS\ClsDataApp\obj\Debug\ClsDataApp.dll
+E:\AARS\ClsDataApp\obj\Debug\ClsDataApp.xml
+E:\AARS\ClsDataApp\obj\Debug\ClsDataApp.pdb
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\devnet\AYSSA - AARS\AARS\ClsDataApp\obj\Debug\ClsDataApp.pdb
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataApp.dll
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataApp.pdb
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataApp.xml
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataSets.dll
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsFramework.dll
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsFramework.pdb
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsFramework.xml
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataSets.pdb
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataSets.xml
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.dll
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.xml
+W:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.pdb
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\CV\Dev [Nuevo]\Aars\ClsDataApp\obj\Debug\ClsDataApp.pdb
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsDataApp.dll
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsDataApp.pdb
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsDataApp.xml
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsDataSets.dll
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsFramework.dll
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsFramework.pdb
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsFramework.xml
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsDataSets.pdb
+D:\Fuentes\Aars\Aars\ClsDataApp\bin\Debug\ClsDataSets.xml
+D:\Fuentes\Aars\Aars\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Fuentes\Aars\Aars\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+D:\Fuentes\Aars\Aars\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+D:\Fuentes\Aars\Aars\ClsDataApp\obj\Debug\ClsDataApp.dll
+D:\Fuentes\Aars\Aars\ClsDataApp\obj\Debug\ClsDataApp.xml
+D:\Fuentes\Aars\Aars\ClsDataApp\obj\Debug\ClsDataApp.pdb
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\Compartida\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\Compartida\AARS_App\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Compartida\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\Compartida\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\Compartida\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\Compartida\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\Compartida\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.pdb
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\Users\AYSSA\Desktop\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.pdb
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\Users\AYSSA\Desktop\AARS_App (En este Integrar)\ClsDataApp\obj\Debug\ClsDataApp.pdb
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.pdb
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.xml
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.dll
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsFramework.dll
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.pdb
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.xml
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsFramework.pdb
+D:\Lisandro\AARS\AARS_App\ClsDataApp\bin\Debug\ClsFramework.xml
+D:\Lisandro\AARS\AARS_App\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Lisandro\AARS\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+D:\Lisandro\AARS\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+D:\Lisandro\AARS\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.dll
+D:\Lisandro\AARS\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.xml
+D:\Lisandro\AARS\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.pdb
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.pdb
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.xml
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.dll
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsFramework.dll
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.pdb
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.xml
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsFramework.pdb
+D:\para referencia\AARS_App\ClsDataApp\bin\Debug\ClsFramework.xml
+D:\para referencia\AARS_App\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+D:\para referencia\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+D:\para referencia\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+D:\para referencia\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.dll
+D:\para referencia\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.xml
+D:\para referencia\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.pdb
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.pdb
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.xml
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.dll
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsFramework.dll
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.pdb
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.xml
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsFramework.pdb
+C:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsFramework.xml
+C:\Publicar\AARS_App\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+C:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+C:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.dll
+C:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.xml
+C:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.pdb
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.dll
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.pdb
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataApp.xml
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.dll
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsFramework.dll
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.pdb
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsDataSets.xml
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsFramework.pdb
+F:\Publicar\AARS_App\ClsDataApp\bin\Debug\ClsFramework.xml
+F:\Publicar\AARS_App\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+F:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+F:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+F:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.dll
+F:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.xml
+F:\Publicar\AARS_App\ClsDataApp\obj\Debug\ClsDataApp.pdb
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsDataApp.dll.config
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsDataApp.dll
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsDataApp.pdb
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsDataApp.xml
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsDataSets.dll
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsFramework.dll
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsDataSets.pdb
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsDataSets.xml
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsFramework.pdb
+F:\Proyecto Migrar\MainApp\ClsDataApp\bin\Debug\ClsFramework.xml
+F:\Proyecto Migrar\MainApp\ClsDataApp\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyecto Migrar\MainApp\ClsDataApp\obj\Debug\ClsDataApp.Resources.resources
+F:\Proyecto Migrar\MainApp\ClsDataApp\obj\Debug\ClsDataApp.vbproj.GenerateResource.Cache
+F:\Proyecto Migrar\MainApp\ClsDataApp\obj\Debug\ClsDataApp.dll
+F:\Proyecto Migrar\MainApp\ClsDataApp\obj\Debug\ClsDataApp.xml
+F:\Proyecto Migrar\MainApp\ClsDataApp\obj\Debug\ClsDataApp.pdb
