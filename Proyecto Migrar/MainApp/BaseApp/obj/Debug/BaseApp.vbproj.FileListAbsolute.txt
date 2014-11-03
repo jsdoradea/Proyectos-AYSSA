@@ -21,3 +21,7 @@ F:\Proyecto Migrar\MainApp\BaseApp\bin\Debug\ClsFramework.xml
 F:\Proyecto Migrar\MainApp\BaseApp\obj\Debug\BaseApp.exe
 F:\Proyecto Migrar\MainApp\BaseApp\obj\Debug\BaseApp.xml
 F:\Proyecto Migrar\MainApp\BaseApp\obj\Debug\BaseApp.pdb
+F:\Proyectos-AYSSA\Proyecto Migrar\MainApp\BaseApp\bin\Debug\BaseApp.exe.config
+F:\Proyectos-AYSSA\Proyecto Migrar\MainApp\BaseApp\obj\Debug\BaseApp.exe
+F:\Proyectos-AYSSA\Proyecto Migrar\MainApp\BaseApp\obj\Debug\BaseApp.xml
+F:\Proyectos-AYSSA\Proyecto Migrar\MainApp\BaseApp\obj\Debug\BaseApp.pdb
