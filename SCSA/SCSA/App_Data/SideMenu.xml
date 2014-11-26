@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <group Text="Correspondencia">
+    <item Text="Registro de Correspondencia General y Solicitudes Soporte de Acta" />
+  </group>
+  <group Text="Propuesta Agenda y Convocatoria">
+    <item Text="Convocatoria a Sesión de Pleno" />
+  </group>
+  <group Text="Desarrollo de Sesión de Pleno">
+    <item Text="Registro de Quorum" />
+    <item Text="Definición de Agenda Definitiva" />
+    <item Text="Minuta de Desarrollo" />
+    <item Text="Cierre de Sesión" />
+  </group>
+  <group Text="Acuerdos">
+    <item Text="Registro de Acuerdos Tomados" />
+    <item Text="Notificación a Interesados y Responsables" />
+  </group>
+  <group Text="Ejecución de Acuerdos">
+    <item Text="Elaboración de Plan de Ejecución" />
+    <item Text="Registro e Informe de Avances" />
+    <item Text="Solicitud de Prorrogas" />
+    <item Text="Autorización de Prorrogas" />
+    <item Text="Monitoreo de Avance" />
+  </group>
+  <group Text="Información a Pleno">
+    <item Text="Estados de Ejecución y Avance" />
+    <item Text="Indicadores de Desempeño" />
+  </group>
+  <group Text="Configuración del sistema">
+    <item Text="Usuarios" />
+    <item Text="Roles" />
+    <item Text="Permisos" />
+    <item Text="Manual de Usuario" />
+  </group>
+</menu>
