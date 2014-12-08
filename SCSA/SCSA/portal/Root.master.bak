@@ -1,7 +1,7 @@
 <%@ Master Language="C#" AutoEventWireup="true" CodeFile="Root.master.cs" Inherits="RootMaster" %>
 
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxSplitter" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxSplitter" TagPrefix="dx" %>
 
 <%-- DXCOMMENT: Page Root.master is a master page that contains the root layout (it includes Header, Cental Area, and Footer) --%>
 <!DOCTYPE html>
@@ -9,13 +9,6 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" type="text/css" href="../Content/Site.css" />
-    <asp:ContentPlaceHolder ID="Header" runat="server">
-                        </asp:ContentPlaceHolder>
-     <script lang="Javascript">
-         function decision(message, url) {
-             if (confirm(message)) location.href = url;
-         }
-    </script>
 </head>
 <body runat="server" id="Body">
     <form id="form1" runat="server">
@@ -64,16 +57,14 @@
                                                 Response.Write("<br/>");
                                                 Response.Write(DateTime.Today.ToString("d"));
                                                 Response.Write("<br/>");
-                                                
                                             }
                                         %>
-                                           [<a id="A1" href="javascript:decision('Esta seguro que desea salir del sistema','../Account/logout.aspx')" runat="server" style="text-decoration: none">Cerrar sesión</a>]
                                         <%--Bienvenido: <span class="bold">
                                             <asp:LoginName ID="HeadLoginName" runat="server" />
-                                        </span>!
-                                            <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                                        </span>!--%> [
+                                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
                                             LogoutPageUrl="~/" />
-                                        --%>
+                                        ]
                                             </span>
                                     </LoggedInTemplate>
                                 </asp:LoginView>

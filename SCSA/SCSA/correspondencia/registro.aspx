@@ -1,11 +1,19 @@
 ﻿<%@ Page Title="Correspondencia" Language="C#" MasterPageFile="~/portal/Main.master" AutoEventWireup="true" CodeFile="registro.aspx.cs" Inherits="correspondencia_registro" %>
 
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxClasses" TagPrefix="dx" %>
-
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTabControl" TagPrefix="dx" %>
-
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxClasses" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTabControl" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+<asp:Content ContentPlaceHolderID="Header1" runat="server">
+    <script type="text/javascript">
+        function OnRowClick(e) {
+            //Unselect all rows
+            GridCorrespondencia._selectAllRowsOnPage(false);
+            //Select the row
+            GridCorrespondencia.SelectRow(e.visibleIndex, true);
+        }
+    </script>
+</asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
     <div id="titulo" style="vertical-align: top; background-color: #003da5; width: 100%">
@@ -23,41 +31,60 @@
                                 <td>
                                     <label>Periodo:</label></td>
                                 <td>
-                                    <dx:ASPxComboBox ID="ASPxComboBox1" runat="server">
-                                        <Items>
-                                            <dx:ListEditItem Text="OCT-2014" Value="102014" />
-                                            <dx:ListEditItem Text="NOV-2014" Value="112014" Selected="true" />
-                                        </Items>
+                                    <dx:ASPxComboBox ID="DDLPeriodo" runat="server"  EnableTheming="True" Theme="Glass" ValueField="CD_CIERRE" AutoPostBack="True" OnSelectedIndexChanged="DDLPeriodo_SelectedIndexChanged">
+                                        <Columns>
+                                            <dx:ListBoxColumn FieldName="CD_CIERRE" Visible="False" />
+                                            <dx:ListBoxColumn Caption="PERIODO" FieldName="DS_PERIODO" Name="PERIODO" />
+                                            <dx:ListBoxColumn Caption="EJERCICIO" FieldName="CD_EJERICIO" Name="EJERCICIO" />
+                                        </Columns>
                                     </dx:ASPxComboBox>
                                 </td>
-                                <td><dx:ASPxButton ID="ASPxButton3" runat="server" Text="Nueva solicitud" OnClick="ASPxButton3_Click"></dx:ASPxButton></td>
+                                <td><dx:ASPxButton ID="ASPxButton3" runat="server" Text="Nueva solicitud" OnClick="ASPxButton3_Click"></dx:ASPxButton>
+                                </td>
                             </tr>
                             <tr>
                                 <td colspan="3">&nbsp;</td>
                             </tr>
                             <tr>
                                 <td colspan="3">
-                                    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" EnableTheming="True" Theme="DevEx">
+                                    <dx:ASPxGridView ID="GridCorrespondencia" ClientInstanceName="GridCorrespondencia" runat="server" AutoGenerateColumns="False" EnableTheming="True" Theme="DevEx" DataSourceID="SqlDataSource1" KeyFieldName="CD_AGENDA" >
                                         <Columns>
-                                            <dx:GridViewCommandColumn ShowEditButton="True" ShowInCustomizationForm="True" VisibleIndex="0">
-                                            </dx:GridViewCommandColumn>
-                                            <dx:GridViewDataTextColumn FieldName="DS_PUNTO_AGENDA" ShowInCustomizationForm="True" VisibleIndex="1" Caption="Punto de Agenda">
+                                            <dx:GridViewDataTextColumn FieldName="CD_AGENDA" ShowInCustomizationForm="True" VisibleIndex="1" Visible="False">
                                             </dx:GridViewDataTextColumn>
-                                            <dx:GridViewDataTextColumn FieldName="Solicitate" ShowInCustomizationForm="True" VisibleIndex="2" ReadOnly="True" Caption="Solicitante">
+                                            <dx:GridViewDataCheckColumn Name="Select" ShowInCustomizationForm="False" VisibleIndex="3">
+                                                <PropertiesCheckEdit DisplayFormatString="{0}">
+                                                </PropertiesCheckEdit>
+                                                <DataItemTemplate>
+                                                    <asp:Button ID="Button5" runat="server" CommandArgument='<%# Eval("CD_AGENDA") %>' OnClick="Button5_Click" Text="Seleccionar" />
+                                                </DataItemTemplate>
+                                            </dx:GridViewDataCheckColumn>
+                                            <dx:GridViewDataTextColumn FieldName="TIPO_C" ShowInCustomizationForm="True" VisibleIndex="4" Caption="Tipo">
                                             </dx:GridViewDataTextColumn>
-                                            <dx:GridViewDataDateColumn FieldName="FECH_CREA" ShowInCustomizationForm="True" VisibleIndex="3" Caption="Fecha de registro">
+                                            <dx:GridViewDataDateColumn FieldName="FECHA_RECEPCION" ShowInCustomizationForm="True" VisibleIndex="5" Caption="Fecha de recepción">
+                                            </dx:GridViewDataDateColumn>
+                                            <dx:GridViewDataTextColumn Caption="Concepto" FieldName="CONCEPTO" ShowInCustomizationForm="True" VisibleIndex="6">
+                                            </dx:GridViewDataTextColumn>
+                                            <dx:GridViewDataTextColumn Caption="Orígen" FieldName="ORIGEN" ShowInCustomizationForm="True" VisibleIndex="7">
+                                            </dx:GridViewDataTextColumn>
+                                            <dx:GridViewDataTextColumn Caption="Unidad / Institución" FieldName="UNIDAD" ShowInCustomizationForm="True" VisibleIndex="8">
+                                            </dx:GridViewDataTextColumn>
+                                            <dx:GridViewDataTextColumn Caption="Persona" FieldName="SOLICITANTE" ShowInCustomizationForm="True" VisibleIndex="9">
+                                            </dx:GridViewDataTextColumn>
+                                            <dx:GridViewDataDateColumn Caption="Fecha de registro" FieldName="FECHA_REGISTRO" ShowInCustomizationForm="True" VisibleIndex="10">
                                             </dx:GridViewDataDateColumn>
                                         </Columns>
+                                        <ClientSideEvents RowClick="function(s, e) { OnRowClick(e); }"></ClientSideEvents>
+                                        <SettingsBehavior AllowSelectSingleRowOnly="True" ConfirmDelete="True" />
+                                        <Settings ShowFilterRow="True" ShowGroupPanel="True" />
                                     </dx:ASPxGridView>
-                                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SCSA %>" SelectCommand="select a.DS_PUNTO_AGENDA, b.DS_NOMBRE_SOLICITANTE+' '+b.DS_APELLIDO_SOLICITANTE as Solicitate,  a.FECH_CREA from dbo.AGD_PUNTOS_AGENDA a
-INNER JOIN dbo.GLB_SOLICITANTES b ON b.CD_SOLICITANTE=a.CD_SOLICITANTE"></asp:SqlDataSource>
+                                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SCSA %>" SelectCommand="SELECT * FROM [TMP_CORRESPONDENCIA] ORDER BY [FECHA_RECEPCION] DESC"></asp:SqlDataSource>
                                 </td>
                             </tr>
                         </table>
                     </dx:ContentControl>
                 </ContentCollection>
             </dx:TabPage>
-            <dx:TabPage Name="detalles" Text="Detalles">
+            <dx:TabPage Name="detalles" Text="Detalles" Enabled="False">
                 <ContentCollection>
                     <dx:ContentControl runat="server">
                         <div id="detalles">
@@ -66,12 +93,12 @@ INNER JOIN dbo.GLB_SOLICITANTES b ON b.CD_SOLICITANTE=a.CD_SOLICITANTE"></asp:Sq
                                     <td>
                                         <label>Estado:</label></td>
                                     <td>
-                                        <dx:ASPxDropDownEdit ID="ASPxDropDownEdit1" runat="server" Theme="Glass" Text="DIGITADO">
-                                        </dx:ASPxDropDownEdit>
+                                        <asp:DropDownList ID="DDLEstado" runat="server">
+                                        </asp:DropDownList>
                                     </td>
                                     <td style="text-align: right">
                                         <label>Fecha de registro:</label></td>
-                                    <td style="text-align: right">&nbsp;<input type="date" id="cal1" />
+                                    <td style="text-align: right">&nbsp;<input type="date" id="FE_REG" name="FE_REG" />
                                     </td>
                                 </tr>
                                 <tr>
@@ -79,53 +106,54 @@ INNER JOIN dbo.GLB_SOLICITANTES b ON b.CD_SOLICITANTE=a.CD_SOLICITANTE"></asp:Sq
                                         <div id="form_reg" style="border-style: solid; border-width: 1px;">
                                             <table style="width: 100%;">
                                                 <tr>
-                                                    <td style="width: 20%">
+                                                    <td>
                                                         <label>Fecha de Solicitud:</label></td>
-                                                    <td style="width: 80%">
-                                                        <input type="date" id="Date2" />
+                                                    <td style="position:relative;">
+                                                        <asp:TextBox ID="txtFE_SOL" runat="server" Enabled="False"></asp:TextBox><asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Content/Images/Calendar.png" Width="20px" OnClick="ImageButton1_Click" />
+                                                        <div id="div_calendario" style="position:absolute; left:0px; top:0px;" visible="false" runat="server">
+                                                            <dx:ASPxCalendar ID="CalSolicitud" runat="server" OnSelectionChanged="CalSolicitud_SelectionChanged" OnValueChanged="CalSolicitud_ValueChanged"  ></dx:ASPxCalendar>
+                                                        </div>
                                                     </td>
+                                                    <td><label>Tipo de Correspondencia:</label></td>
                                                 </tr>
                                                 <tr>
-                                                    <td style="width: 20%">
-                                                        <label>Nombre de solicitud:</label></td>
-                                                    <td style="width: 80%">
-                                                        <asp:TextBox ID="TextBox1" runat="server" Width="90%" Rows="3" TextMode="MultiLine"></asp:TextBox></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">
-                                                        <label>Justificación:</label></td>
-                                                    <td style="width: 80%">
-                                                        <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine" Rows="4" Width="90%"></asp:TextBox></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 20%">
+                                                    <td>
                                                         <label>Origen de Solicitud:</label></td>
-                                                    <td style="width: 80%">
-                                                        <table style="width: 100%;">
-                                                            <tr>
-                                                                <td>
-                                                                    <asp:DropDownList ID="DDLOrigen" runat="server"></asp:DropDownList>
-                                                                </td>
-                                                                <td>
-                                                                    <dx:ASPxRadioButtonList ID="RdTipo" runat="server">
-                                                                        <Items>
-                                                                            <dx:ListEditItem Text="Soporte de acta" Value="0" selected="true" />
-                                                                            <dx:ListEditItem Text="Correspondencia Normal" Value="1" />
-                                                                        </Items>
-                                                                    </dx:ASPxRadioButtonList>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
+                                                    <td>
+
+                                                        <asp:DropDownList ID="DDLOrigen" runat="server"></asp:DropDownList>
+                                                    </td>
+                                                    <td rowspan="2">
+                                                        <dx:ASPxRadioButtonList ID="RdTipo" runat="server">
+                                                            <Items>
+                                                                <dx:ListEditItem Text="Soporte de acta" Value="0" Selected="true" />
+                                                                <dx:ListEditItem Text="Correspondencia Normal" Value="1" />
+                                                            </Items>
+                                                        </dx:ASPxRadioButtonList>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td style="width: 20%">
+                                                    <td>
                                                         <label>Solicitante:</label></td>
-                                                    <td style="width: 80%">
-                                                        <asp:DropDownList ID="DDLSolicitantes" runat="server" Height="16px" Width="531px">
+                                                    <td>
+                                                        <asp:DropDownList ID="DDLSolicitantes" runat="server">
                                                         </asp:DropDownList>
                                                     </td>
                                                 </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label>Nombre de solicitud:</label></td>
+                                                    <td colspan="2">
+                                                        <asp:TextBox ID="txtPunto" runat="server" Width="90%" Rows="3" TextMode="MultiLine"></asp:TextBox></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label>Justificación:</label></td>
+                                                    <td colspan="2">
+                                                        <asp:TextBox ID="txtJust" runat="server" TextMode="MultiLine" Rows="4" Width="90%"></asp:TextBox></td>
+                                                </tr>
+                                                
+                                                
                                             </table>
                                             <br />
                                         </div>

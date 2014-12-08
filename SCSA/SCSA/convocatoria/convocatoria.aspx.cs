@@ -86,10 +86,16 @@ public partial class convocatoria_convocatoria : System.Web.UI.Page
     }
     protected void Button6_Click(object sender, EventArgs e)
     {
-        Response.Write("<script>");
-        Response.Write("window.open('Agenda.aspx','_blank')");
-        Response.Write("</script>");
-        TabConvocatoria.ActiveTabIndex = 0;
+        string sUrl = "Agenda.aspx" ;
+        string sScript = "<script language =javascript> ";
+        sScript += "window.open('" + sUrl + "',Agenda,'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=680,height=420,left=180,top=120');" ;
+        sScript += "</script> " ;
+        Response.Write(sScript);
+
+        //Response.Write("<script>");
+        //Response.Write("window.open('Agenda.aspx','_blank')");
+        //Response.Write("</script>");
+        //TabConvocatoria.ActiveTabIndex = 0;
     }
     protected void Button7_Click(object sender, EventArgs e)
     {
@@ -97,5 +103,13 @@ public partial class convocatoria_convocatoria : System.Web.UI.Page
         Response.Write("window.open('repConv.aspx','_blank')");
         Response.Write("</script>");
         TabConvocatoria.ActiveTabIndex = 0;
+    }
+    protected void ASPxButton4_Click(object sender, EventArgs e)
+    {
+        string sUrl = "Agenda.aspx";
+        string sScript = "<script language =javascript> ";
+        sScript += "window.open('" + sUrl + "',null,'toolbar=0,titlebar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=680,height=450,left=120,top=100');";
+        sScript += "</script> ";
+        Response.Write(sScript);
     }
 }

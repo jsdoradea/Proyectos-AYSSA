@@ -1,8 +1,13 @@
 <%@ Master Language="C#" MasterPageFile="~/portal/Root.master" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="MainMaster" %>
 
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxSplitter" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxNavBar" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxNavBar" TagPrefix="dx" %>
 
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxSplitter" TagPrefix="dx" %>
+
+<asp:Content ID="Header" ContentPlaceHolderID="Header" runat="server">
+    <asp:ContentPlaceHolder ID="Header1" runat="server">
+                        </asp:ContentPlaceHolder>
+</asp:Content>
 
 <%-- DXCOMMENT: Page Main.master is a master page that contains central area layout --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
@@ -24,6 +29,7 @@
                 <ContentCollection>
                     <dx:SplitterContentControl>
                         <div class="leftPanel">
+
                             <%-- DXCOMMENT: Configure the left panel's ASPxNavBar --%>
 <dx:ASPxNavBar Width="240px" Height="283px" ID="ASPxNavBar1" runat="server" AllowSelectItem="True"
             EnableAnimation="True" Theme="Office2010Silver">

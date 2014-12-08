@@ -1,17 +1,13 @@
 <%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/portal/Light.master" CodeFile="Login.aspx.cs" Inherits="Login" %>
 
-<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
 
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="accountHeader">
-    <h1>
-        Tribunal de Etica Gubernamental</h1>
-        <hr style="background-color: #003da5" />
-        <br />
-        <h2 >
-            Bienvenido al SCSA</h2>
-        <hr style="background-color: #84bd00" />
-        <br />
+    <h2>
+        Tribunal de Etica Gubernamental</h2>
+        <p>
+            Bienvenido al SCSA</p>
 </div>
 <div class="form-field">
     <asp:Login ID="Login1" runat="server" BackColor="#F7F6F3" BorderColor="#E6E2D8" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="Medium" ForeColor="#333333" DisplayRememberMe="False" Height="200px" OnAuthenticate="Login1_Authenticate" Width="525px">
