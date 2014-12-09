@@ -33,7 +33,7 @@ public class agenda
 
                 _c.estado = _reader.GetInt32(0);
                 _c.fec_registro = _reader.GetDateTime(1);
-                _c.fec_solicitud = _reader.GetDateTime(1);
+                _c.fec_solicitud = _reader.GetDateTime(2);
                 _c.origen = _reader.GetInt32(3);
                 _c.solicitante = _reader.GetInt32(4);
                 _c.unidad = _reader.GetInt32(5);

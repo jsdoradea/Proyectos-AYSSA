@@ -11,78 +11,44 @@ public partial class correspondencia_registro : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        int cd_agenda = Convert.ToInt32(Request.QueryString["ID"]);
-        int item_periodo = Convert.ToInt32(Request.QueryString["p"]);
-
-        DDLPeriodo.DataSource = llenar_ddl.llenar("SELECT * FROM [GLB_CIERRE_PERIODO] ORDER BY [CD_PERIODO] DESC, [CD_EJERICIO]");
-        DDLPeriodo.DataBind();
-
-        DDLEstado.DataSource = llenar_combo.llena_combo("SELECT CD_ESTADO_CORR,DS_ESTADO  FROM AGD_ESTADOS_AGENDA  ORDER BY CD_ESTADO_CORR");
-        DDLEstado.DataValueField = "Id";
-        DDLEstado.DataTextField = "Nombre";
-        DDLEstado.DataBind();
-
-        DDLOrigen.DataSource = llenar_combo.llena_combo("select CD_UNIDAD, DS_UNIDAD from dbo.GLB_UNIDADES_TEG order by CD_UNIDAD");
-        DDLOrigen.DataValueField = "Id";
-        DDLOrigen.DataTextField = "Nombre";
-        DDLOrigen.DataBind();
-
-        DDLSolicitantes.DataSource = llenar_combo.llena_combo("select CD_SOLICITANTE, DS_NOMBRE_SOLICITANTE+' '+DS_APELLIDO_SOLICITANTE as nombre from dbo.GLB_SOLICITANTES ");
-        DDLSolicitantes.DataValueField = "Id";
-        DDLSolicitantes.DataTextField = "Nombre";
-        DDLSolicitantes.DataBind();
+        //int cd_agenda = Convert.ToInt32(Request.QueryString["ID"]);
+        //int item_periodo = Convert.ToInt32(Request.QueryString["p"]);
+        //string accion = Request.QueryString["a"];
 
 
         if (!IsPostBack)
         {
+
+            DDLOrigen.DataSource = llenar_combo.llena_combo("select CD_ORIG_PUNTO, DS_ORIG_PUNTO from dbo.GLB_ORIGEN_PUNTOS ORDER BY CD_ORIG_PUNTO");
+            DDLOrigen.DataValueField = "Id";
+            DDLOrigen.DataTextField = "Nombre";
+            DDLOrigen.DataBind();
+
+            DDLEstado.DataSource = llenar_combo.llena_combo("SELECT CD_ESTADO_CORR,DS_ESTADO  FROM AGD_ESTADOS_AGENDA  ORDER BY CD_ESTADO_CORR");
+            DDLEstado.DataValueField = "Id";
+            DDLEstado.DataTextField = "Nombre";
+            DDLEstado.DataBind();
+
+            DDLPeriodo.DataBind();
             DDLPeriodo.SelectedIndex = 0;
             llenar_grid(Convert.ToInt32(DDLPeriodo.SelectedItem.Value));
-        }
-
-        if (cd_agenda != 0)
-        {
-            TabCorrespondencia.TabPages[1].Enabled = true;
-            TabCorrespondencia.ActiveTabIndex = 1;
-            DDLPeriodo.SelectedIndex = item_periodo;
-            llenar_grid(Convert.ToInt32(DDLPeriodo.SelectedItem.Value));
-            List<datos_correspondencia> lista = new List<datos_correspondencia>();
-            lista = agenda.datos_agenda(Convert.ToInt32(cd_agenda));
-            DDLEstado.SelectedValue = lista[0].estado.ToString();
-            txtPunto.Text = lista[0].punto.ToString();
             
-            //FE_SOLICITUD.Value = lista[0].fec_solicitud.ToString();
+            ComboSolicitantes.SelectedIndex = 0;
+            txtFE_REG.Text = DateTime.Today.ToShortDateString();
         }
-        
-
-        
-    }
-    protected void ASPxButton3_Click(object sender, EventArgs e)
-    {
-        TomaDatosSeleccionados();
-        //TabCorrespondencia.TabPages[1].Visible = true;
-        TabCorrespondencia.TabPages[1].Enabled = true;
-        //TabCorrespondencia.TabPages[1].VisibleIndex = 1;
-        TabCorrespondencia.ActiveTabIndex = 1;
     }
 
-    protected void Button1_Click(object sender, EventArgs e)
-    {
-
-    }
-    protected void Button2_Click(object sender, EventArgs e)
-    {
-        TabCorrespondencia.ActiveTabIndex = 0;
-        //TabCorrespondencia.TabPages[1].Visible = false;
-        TabCorrespondencia.TabPages[1].Enabled = false;
-    }
     protected void DDLPeriodo_SelectedIndexChanged(object sender, EventArgs e)
     {
+        //Postback selección de periodo
         llenar_grid(Convert.ToInt32(DDLPeriodo.SelectedItem.Value));
     }
 
     private void llenar_grid(int periodo)
     {
-         using (System.Data.SqlClient.SqlConnection con = conexion.conectarBD())
+        //Carga de la grid cada vez que sea necesario.
+
+        using (System.Data.SqlClient.SqlConnection con = conexion.conectarBD())
         {
             SqlCommand Com = new SqlCommand();
             SqlDataAdapter Adp = new SqlDataAdapter();
@@ -97,10 +63,54 @@ public partial class correspondencia_registro : System.Web.UI.Page
             Adp.SelectCommand = Com;
             Adp.Fill(Dt);
         }
-         //SqlDataSource1.SelectCommand = "select * from dbo.TMP_CORRESPONDENCIA ORDER BY FECHA_RECEPCION DESC";
-        
-        //GridCorrespondencia.DataSource = SqlDataSource1;
         GridCorrespondencia.DataBind();
+    }
+
+    protected void DDLOrigen_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        int codigo = Convert.ToInt32(DDLOrigen.SelectedValue);
+        ComboSolicitantes.SelectedIndex = 0;
+    }
+
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        //Botón Cancelar
+        TabCorrespondencia.ActiveTabIndex = 0;
+        TabCorrespondencia.TabPages[1].Enabled = false;
+    }
+
+    protected void ASPxButton3_Click(object sender, EventArgs e)
+    {
+        //Nueva Correspondencia
+        TabCorrespondencia.TabPages[1].Enabled = true;
+        TabCorrespondencia.ActiveTabIndex = 1;
+        DDLEstado.Enabled = false;
+        ComboSolicitantes.SelectedIndex = 0;
+        lblAccion.Text = "n";
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        //guardar Cambios.
+        //Ejecutar procedimiento para guardar datos.
+        int cod_agenda = 0;
+        if (lblAccion.Text == "n")
+        {
+            cod_agenda = 0;
+        }
+        else
+        {
+            cod_agenda = Convert.ToInt32(lblCodAgenda.Text);
+        }
+        manto_correspondencia.nuevo(lblAccion.Text, cod_agenda, txtPunto.Text, txtJust.Text, Convert.ToInt32(RdTipo.Value), Convert.ToInt32(DDLOrigen.SelectedValue), Convert.ToInt32(ComboSolicitantes.SelectedItem.Value), Convert.ToInt32(DDLEstado.SelectedValue), Convert.ToDateTime(txtFE_SOL.Text), Convert.ToDateTime(txtFE_REG.Text), Convert.ToInt32(Session["UserID"]));
+        //Inicializar página
+        Response.Redirect("~/correspondencia/registro.aspx");
+    }
+
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        TomaDatosSeleccionados();
     }
 
     private void TomaDatosSeleccionados()
@@ -117,30 +127,41 @@ public partial class correspondencia_registro : System.Web.UI.Page
                 cd_agenda = (int?)GridCorrespondencia.GetRowValues(i, "CD_AGENDA");
             }
         }
-        Response.Redirect("~/correspondencia/registro.aspx?ID=" + cd_agenda + "&p=" + DDLPeriodo.SelectedIndex);
+        //Cargar info de componentes.
+        cargar_componentes(Convert.ToInt32(cd_agenda));
     }
-    protected void GridCorrespondencia_SelectionChanged(object sender, EventArgs e)
+
+    private void cargar_componentes(int cod_agenda)
     {
-        TomaDatosSeleccionados();
+        TabCorrespondencia.TabPages[1].Enabled = true;
+        TabCorrespondencia.ActiveTabIndex = 1;
+
+        llenar_grid(Convert.ToInt32(DDLPeriodo.SelectedItem.Value));
+        List<datos_correspondencia> lista = new List<datos_correspondencia>();
+        lista = agenda.datos_agenda(Convert.ToInt32(cod_agenda));
+        DDLEstado.SelectedValue = lista[0].estado.ToString();
+        txtPunto.Text = lista[0].punto.ToString();
+        txtFE_SOL.Text = lista[0].fec_solicitud.ToString("dd/MM/yyyy");
+        txtFE_REG.Text = lista[0].fec_registro.ToString("dd/MM/yyyy");
+        DDLOrigen.SelectedValue = lista[0].origen.ToString();
+        ComboSolicitantes.DataBind();
+        ComboSolicitantes.Value = lista[0].solicitante.ToString();
+        RdTipo.Value = lista[0].tipo_correspondencia.ToString();
+        txtJust.Text = lista[0].justificacion.ToString();
+
+        lblAccion.Text = "m";
+        lblCodAgenda.Text = cod_agenda.ToString();
     }
-    protected void Button5_Click(object sender, EventArgs e)
-    {
-        TomaDatosSeleccionados();
-        //Response.Redirect("~/correspondencia/registro.aspx?ID= " + GridCorrespondencia.GetRowValues(GridCorrespondencia.FocusedRowIndex, "CD_AGENDA"));
-    }
+
     protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
     {
         div_calendario.Visible = true;
+        CalSolicitud.Visible = true;
     }
-
     protected void CalSolicitud_SelectionChanged(object sender, EventArgs e)
     {
-        txtFE_SOL.Text = CalSolicitud.SelectedDate.ToString("dd/mm/yyyy");
+        CalSolicitud.Visible = false;
         div_calendario.Visible = false;
-    }
-    protected void CalSolicitud_ValueChanged(object sender, EventArgs e)
-    {
-        txtFE_SOL.Text = CalSolicitud.SelectedDate.ToString("dd/mm/yyyy");
-        div_calendario.Visible = false;
-    }
+        txtFE_SOL.Text = CalSolicitud.SelectedDate.ToShortDateString();
+    }  
 }

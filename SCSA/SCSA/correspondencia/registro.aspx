@@ -31,13 +31,14 @@
                                 <td>
                                     <label>Periodo:</label></td>
                                 <td>
-                                    <dx:ASPxComboBox ID="DDLPeriodo" runat="server"  EnableTheming="True" Theme="Glass" ValueField="CD_CIERRE" AutoPostBack="True" OnSelectedIndexChanged="DDLPeriodo_SelectedIndexChanged">
+                                    <dx:ASPxComboBox ID="DDLPeriodo" runat="server"  EnableTheming="True" Theme="Glass" ValueField="CD_CIERRE" AutoPostBack="True" OnSelectedIndexChanged="DDLPeriodo_SelectedIndexChanged" DataSourceID="SQLDS_Periodo">
                                         <Columns>
                                             <dx:ListBoxColumn FieldName="CD_CIERRE" Visible="False" />
                                             <dx:ListBoxColumn Caption="PERIODO" FieldName="DS_PERIODO" Name="PERIODO" />
                                             <dx:ListBoxColumn Caption="EJERCICIO" FieldName="CD_EJERICIO" Name="EJERCICIO" />
                                         </Columns>
                                     </dx:ASPxComboBox>
+                                    <asp:SqlDataSource ID="SQLDS_Periodo" runat="server" ConnectionString="<%$ ConnectionStrings:SCSA %>" SelectCommand="SELECT [CD_CIERRE], [DS_PERIODO], [CD_EJERICIO] FROM [GLB_CIERRE_PERIODO] ORDER  BY [CD_EJERICIO] DESC, CD_PERIODO DESC"></asp:SqlDataSource>
                                 </td>
                                 <td><dx:ASPxButton ID="ASPxButton3" runat="server" Text="Nueva solicitud" OnClick="ASPxButton3_Click"></dx:ASPxButton>
                                 </td>
@@ -96,9 +97,9 @@
                                         <asp:DropDownList ID="DDLEstado" runat="server">
                                         </asp:DropDownList>
                                     </td>
-                                    <td style="text-align: right">
-                                        <label>Fecha de registro:</label></td>
-                                    <td style="text-align: right">&nbsp;<input type="date" id="FE_REG" name="FE_REG" />
+                                    <td style="text-align: right; position:relative;">
+                                        <label>Fecha de registro:</label>
+                                        <asp:TextBox ID="txtFE_REG" runat="server" Enabled="False"></asp:TextBox>
                                     </td>
                                 </tr>
                                 <tr>
@@ -111,7 +112,7 @@
                                                     <td style="position:relative;">
                                                         <asp:TextBox ID="txtFE_SOL" runat="server" Enabled="False"></asp:TextBox><asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Content/Images/Calendar.png" Width="20px" OnClick="ImageButton1_Click" />
                                                         <div id="div_calendario" style="position:absolute; left:0px; top:0px;" visible="false" runat="server">
-                                                            <dx:ASPxCalendar ID="CalSolicitud" runat="server" OnSelectionChanged="CalSolicitud_SelectionChanged" OnValueChanged="CalSolicitud_ValueChanged"  ></dx:ASPxCalendar>
+                                                            <dx:ASPxCalendar ID="CalSolicitud" runat="server" Visible="False"  AutoPostBack="True" OnSelectionChanged="CalSolicitud_SelectionChanged"></dx:ASPxCalendar>
                                                         </div>
                                                     </td>
                                                     <td><label>Tipo de Correspondencia:</label></td>
@@ -120,13 +121,12 @@
                                                     <td>
                                                         <label>Origen de Solicitud:</label></td>
                                                     <td>
-
-                                                        <asp:DropDownList ID="DDLOrigen" runat="server"></asp:DropDownList>
+                                                        <asp:DropDownList ID="DDLOrigen" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DDLOrigen_SelectedIndexChanged"></asp:DropDownList>
                                                     </td>
                                                     <td rowspan="2">
                                                         <dx:ASPxRadioButtonList ID="RdTipo" runat="server">
                                                             <Items>
-                                                                <dx:ListEditItem Text="Soporte de acta" Value="0" Selected="true" />
+                                                                <dx:ListEditItem Text="Soporte de acta" Value="2" Selected="true" />
                                                                 <dx:ListEditItem Text="Correspondencia Normal" Value="1" />
                                                             </Items>
                                                         </dx:ASPxRadioButtonList>
@@ -136,8 +136,25 @@
                                                     <td>
                                                         <label>Solicitante:</label></td>
                                                     <td>
-                                                        <asp:DropDownList ID="DDLSolicitantes" runat="server">
-                                                        </asp:DropDownList>
+                                                        <dx:ASPxComboBox ID="ComboSolicitantes" runat="server" ValueField="CODIGO"  ValueType="System.String" Width="90%" DataSourceID="SQLDS_Solicitantes">
+                                                             <Columns>
+                                                                <dx:ListBoxColumn FieldName="CODIGO" Visible="False" />
+                                                                <dx:ListBoxColumn Caption="Nombre" FieldName="PERSONA" Name="PERSONA" />
+                                                                <dx:ListBoxColumn Caption="Unidad" FieldName="ORIGEN" Name="ORIGEN" />
+                                                            </Columns>
+                                                        </dx:ASPxComboBox>
+                                                        <asp:SqlDataSource ID="SQLDS_Solicitantes" runat="server" ConnectionString="<%$ ConnectionStrings:SCSA %>" SelectCommand="IF @origen=1
+BEGIN
+SELECT a.CD_EMPLEADO as CODIGO, a.DS_NOMBRE_EMPLEADO + ' ' + a.DS_APELLIDO_EMPLEADO AS PERSONA, b.DS_UNIDAD AS ORIGEN FROM dbo.GLB_EMPLEADOS a 	INNER JOIN dbo.GLB_UNIDADES_TEG b ON b.CD_UNIDAD=a.CD_UNIDAD WHERE a.CD_ESTADO = 1 ORDER BY b.DS_UNIDAD, a.DS_NOMBRE_EMPLEADO, a.DS_APELLIDO_EMPLEADO
+END
+ELSE
+BEGIN
+SELECT a.CD_SOLICITANTE as CODIGO, a.DS_NOMBRE_SOLICITANTE + ' ' + a.DS_APELLIDO_SOLICITANTE AS PERSONA, b.DS_INSTITUCION AS ORIGEN FROM dbo.GLB_SOLICITANTES a 	INNER JOIN dbo.GLB_INSTITUCION b ON b.CD_INSTITUCION = a.CD_INSTITUCION ORDER BY b.DS_INSTITUCION, a.DS_NOMBRE_SOLICITANTE, a.DS_APELLIDO_SOLICITANTE
+END">
+                                                            <SelectParameters>
+                                                                <asp:ControlParameter ControlID="DDLOrigen" DefaultValue="1" Name="origen" PropertyName="SelectedValue" />
+                                                            </SelectParameters>
+                                                        </asp:SqlDataSource>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -170,6 +187,8 @@
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
                                     <td style="text-align: right">
+                                        <asp:Label ID="lblCodAgenda" runat="server" Visible="False"></asp:Label>
+                                        <asp:Label ID="lblAccion" runat="server" Visible="False"></asp:Label>
                                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Guardar" />
                                         &nbsp;&nbsp;<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Cancelar" />
                                     </td>
