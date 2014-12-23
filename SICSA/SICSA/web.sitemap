@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="" title="Menu">
+    <siteMapNode url="" title="Módulos del sistema">
+      <siteMapNode url="~/modulos/correspondencia.aspx" title="Correspondencia General y Soporte de Acta" />
+      <siteMapNode url="~/modulos/convocatoria.aspx" title="Propuesta de agenda y convocatoria" />
+      <siteMapNode url="" title="Desarrollo de sesión de pleno" />
+      <siteMapNode url="" title="Acuerdos" />
+      <siteMapNode url="" title="Ejecución de acuerdos" />
+      <siteMapNode url="" title="Información a pleno" />
+    </siteMapNode>
+    <siteMapNode url="" title="Configuración del Sistema">
+      <siteMapNode url="~/configuracion/usuarios.aspx" title="Usuarios" />
+      <siteMapNode url="~/configuracion/roles.aspx" title="Roles" />
+      <siteMapNode url="~/configuracion/permisos.aspx" title="Permisos" />
+      <siteMapNode url="~/configuracion/manual.aspx" title="Manual de Usuario" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
