@@ -1,0 +1,821 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.Web.ASPxRichEdit.v14.2</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItemCollection">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItemCollection.Add">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItemCollection.Add(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="text">
+		 [To be supplied] 
+            </param>
+            <param name="commandName">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItemCollection.CreateDefaultItems">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.#ctor(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="text">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.#ctor(System.String,System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="text">
+		 [To be supplied] 
+            </param>
+            <param name="commandName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.BeginGroup">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.CommandName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.ImageName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.Text">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.ToString">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditPopupMenuItem.Visible">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditRibbonImages">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditRibbonImages.#ctor(DevExpress.Web.Internal.ISkinOwner)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="owner">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditRibbonImages.ToString">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditRibbonTabCollection">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditRibbonTabCollection.#ctor(DevExpress.Web.Internal.IWebControlObject)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="owner">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditRibbonTabCollection.Add(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="text">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditRibbonTabCollection.CreateDefaultRibbonTabs">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditRibbonTabCollection.RichEdit">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditRulerImages">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditRulerImages.#ctor(DevExpress.Web.Internal.ISkinOwner)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="skinOwner">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditRulerImages.FirstLineIdentDragHandle">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditRulerImages.FirstLineIdentDragHandleImageName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditRulerImages.LeftIdentDragHandle">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditRulerImages.LeftIdentDragHandleImageName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditRulerImages.RightIdentDragHandle">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditRulerImages.RightIdentDragHandleImageName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditImages">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditImages.#ctor(DevExpress.Web.Internal.ISkinOwner)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="owner">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.Copy">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.Cut">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.Font">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.IndentDecrease">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.IndentIncrease">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.RichEditImages.LoadingPanelOnStatusBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.Paragraph">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.Paste">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditImages.SelectAll">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditImages.ToString">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditClientSideEvents">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.RichEditClientSideEvents.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.ASPxRichEditSettings">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEditSettings.#ctor(DevExpress.Web.ASPxRichEdit.ASPxRichEdit)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="owner">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEditSettings.Assign(DevExpress.Web.PropertiesBase)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="source">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEditSettings.Unit">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditUnit">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditUnit.Centimeter">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditUnit.Inch">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.ASPxRichEdit">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.#ctor">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ActiveTabIndex">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.AssociatedRibbonID">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="E:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Callback">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ClientInstanceName">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ClientSideEvents">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Close">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ConfirmOnLosingChanges">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.CreateDefaultRibbonTabs(System.Boolean)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="clearExistingTabs">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="E:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.DocumentCallback">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.EnableClientSideAPI">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ExportToPdf(System.IO.Stream,DevExpress.XtraPrinting.PdfExportOptions)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="pdfExportOptions">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ExportToPdf(System.IO.Stream)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.GetWorkDirectory">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Images">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ImagesRuler">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.IsInternalServiceCallback">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Open(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="path">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.RaiseDocumentSelectorFileUploading(DevExpress.Web.FileManagerFileUploadEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.RaiseDocumentSelectorFolderCreating(DevExpress.Web.FileManagerFolderCreateEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.RaiseDocumentSelectorItemDeleting(DevExpress.Web.FileManagerItemDeleteEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.RaiseDocumentSelectorItemMoving(DevExpress.Web.FileManagerItemMoveEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.RaiseDocumentSelectorItemRenaming(DevExpress.Web.FileManagerItemRenameEventArgs)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="args">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.RibbonMode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.RibbonTabs">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Save(System.String,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Save(System.String)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="fileName">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Save(System.IO.Stream,DevExpress.XtraRichEdit.DocumentFormat)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="stream">
+		 [To be supplied] 
+            </param>
+            <param name="documentFormat">
+		 [To be supplied] 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Settings">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.SettingsDocumentSelector">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ShowConfirmOnLosingChanges">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.ShowStatusBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Styles">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.StylesButton">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.StylesEditors">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.StylesFileManager">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.StylesPopupMenu">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.StylesRibbon">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.StylesRuler">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.StylesStatusBar">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="P:DevExpress.Web.ASPxRichEdit.ASPxRichEdit.WorkDirectory">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <value> [To be supplied] </value>
+
+
+        </member>
+        <member name="T:DevExpress.Web.ASPxRichEdit.RichEditRibbonMode">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditRibbonMode.ExternalRibbon">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditRibbonMode.None">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.Web.ASPxRichEdit.RichEditRibbonMode.Ribbon">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+
+        </member>
+    </members>
+</doc>
