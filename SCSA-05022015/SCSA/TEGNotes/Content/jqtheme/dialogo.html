@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery UI Dialog - Dialogo para formulario simple</title>
+<link rel="stylesheet" type="text/css" href="jquery-ui.css"/>
+<script type="text/javascript" src="jquery-ui.js"></script>
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css"/>
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+
+<script>
+$(function () {
+$(function () {
+$.datepicker.setDefaults($.datepicker.regional["es"]);
+$("#datepicker").datepicker({
+firstDay: 1
+});
+});
+$("#dialog").dialog({
+autoOpen: false,
+modal: true,
+buttons: {
+"Aceptar": function () {
+var texto1 = document.getElementById('nombre').firstChild;
+var newText1 = document.createTextNode(el_nombre.value);
+texto1.parentNode.replaceChild(newText1, texto1);
+var texto2 = document.getElementById('fecha').firstChild;
+var newText2 = document.createTextNode(datepicker.value);
+texto2.parentNode.replaceChild(newText2, texto2);
+$(this).dialog("close");
+},
+"Cerrar": function () {
+$(this).dialog("close");
+}
+}
+});
+$("#abrir")
+.button()
+.click(function () {
+el_nombre.value = document.getElementById('nombre').firstChild.nodeValue;
+datepicker.value = document.getElementById('fecha').firstChild.nodeValue;
+$("#dialog").dialog("option", "width", 600);
+$("#dialog").dialog("option", "height", 300);
+$("#dialog").dialog("option", "resizable", false);
+$("#dialog").dialog("open");
+});
+});
+</script>
+</head>
+<body>
+<div id="dialog" title="Formulario simple">
+Nombre:<input type="text" id="el_nombre" value="" /><br />
+Fecha:<input type="text" id="datepicker" />
+</div>
+
+Nombre: <strong id="nombre">Julio</strong><br />
+Fecha: <strong id="fecha">11/07/1975</strong><br />
+<hr />
+<button id="abrir">Abrir diálogo</button>
+</body>
+</html>
