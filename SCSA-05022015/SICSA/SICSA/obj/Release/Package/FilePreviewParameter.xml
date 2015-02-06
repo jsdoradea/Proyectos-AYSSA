@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SICSA" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\XPS14z\\Documents\\Visual\ Studio\ 2012\\Projects\\SICSA\\SICSA\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\XPS14z\\Documents\\Visual\ Studio\ 2012\\Projects\\SICSA\\SICSA\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SICSA-Web.config Connection String" description="" value="Data Source=.;Initial Catalog=SCSA;User ID=sergio;Password=123" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\XPS14z\\Documents\\Visual\ Studio\ 2012\\Projects\\SICSA\\SICSA\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SICSA']/@connectionString" />
+  </parameter>
+</parameters>
