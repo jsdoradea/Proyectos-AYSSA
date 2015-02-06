@@ -1,0 +1,15 @@
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\Menu2.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\Menu2.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\obj\Debug\Menu2.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\obj\Debug\Menu2.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\AppBaseSIS.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsDataApp.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsDataSets.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsFormas.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\AppBaseSIS.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsDataApp.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsDataSets.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsFormas.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\bin\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\Menu2\Menu2\obj\Debug\Menu2.csprojResolveAssemblyReference.cache

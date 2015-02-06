@@ -1,0 +1,239 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyTemplateForm.master.cs" Inherits="ClsFormas.MyTemplateForm" %>
+
+<%@ Register assembly="DevExpress.Web.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>MyTemplateForm</title>
+    <style type="text/css">
+        body {
+            margin:0px;
+            padding:0px;
+        }
+        .filaPantallaDetalle-alto {
+            height: 90%;
+        }
+        .filaPantallaEncabezado-alto {
+            height: 7%;
+        }
+        .filaPantallaEncabezadoPeriodo-alto {
+            height: 7%;
+            float: right;
+        }
+        .filaPantallaEstado-alto {
+            height: 3%;
+            text-align: center;
+        }
+        .celdaIzquierda-ancho {
+            width: 2%;
+        }
+        .celdaDerecha-ancho {
+            width: 2%;
+        }
+        .celdaMedio-ancho {
+            width: 2%;
+        }
+        .celdaDetalleI-ancho {
+            width: 25%;
+            text-align: left;
+        }
+        .celdaDetalleD-ancho {
+            width: 22%;
+            text-align: right;
+        }
+        .celdaDetalleC-ancho {
+            text-align: center;
+        }
+        .celdaDetalleIMaestro-ancho {
+            width: 25%;
+            text-align: left;
+        }
+        .celdaDetalleDMaestro-ancho {
+            width: 15%;
+            text-align: right;
+        }
+        .celdaDetalleIDetalle-ancho {
+            width: 36%;
+            text-align: left;
+        }
+        .celdaDetalleDDetalle-ancho {
+            width: 18%;
+            text-align: right;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <dx:ASPxPanel ID="pnlSup" runat="server" FixedPosition="WindowTop" BackColor="#003366" Collapsible="True">
+            <SettingsAdaptivity CollapseAtWindowInnerHeight="500" HideAtWindowInnerHeight="400" CollapseAtWindowInnerWidth="1000" />
+            <SettingsCollapsing>
+                <ExpandButton GlyphType="Strips" />
+            </SettingsCollapsing>
+            <Paddings Padding="0px" />
+            <PanelCollection>
+            <dx:PanelContent ID="PanelContent1" runat="server">
+                <dx:ASPxPanel ID="pnlFranSup" runat="server" Width="100%" BackColor="#9999FF" Height="8px">
+                    <PanelCollection>
+                        <dx:PanelContent ID="PanelContent2" runat="server">
+                        </dx:PanelContent>
+                    </PanelCollection>
+                </dx:ASPxPanel>
+                <dx:ASPxPanel ID="pnlFranPrin" runat="server" Width="100%" BackColor="#003366">
+                    <PanelCollection>
+                        <dx:PanelContent ID="PanelContent3" runat="server">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td style="width:80%">
+                                        <dx:ASPxImage ID="imgLogo" runat="server" AlternateText="Logo" Height="42px" ImageAlign="AbsMiddle" ShowLoadingImage="True" Width="200px">
+                                            <EmptyImage AlternateText="Logo Pend">
+                                            </EmptyImage>
+                                        </dx:ASPxImage>
+                                        <dx:ASPxLabel ID="lblNombreSistema" runat="server" Font-Bold="True" Font-Size="18pt" ForeColor="White" Text="[Nombre de Sistema]">
+                                        </dx:ASPxLabel>
+                                    </td>
+                                    <td style="width:5%">&nbsp;</td>
+                                    <td style="width:15%">
+                                        <dx:ASPxMenu ID="mnuUser" runat="server" BackColor="#003366" Orientation="Vertical" Theme="PlasticBlue" EnableTheming="True" Font-Bold="True" ForeColor="White">
+                                            <Items>
+                                                <dx:MenuItem Text="[Usuario]" Name="mnuItemUsuario">
+                                                    <Items>
+<dx:MenuItem Text="Perfil" Name="mnuItemPerfil">
+    <ItemStyle BackColor="#9999FF" />
+                                                        </dx:MenuItem>
+                                                        <dx:MenuItem Name="mnuItemManual" Text="Manual Usuario">
+                                                            <ItemStyle BackColor="#9999FF" />
+                                                        </dx:MenuItem>
+                                                        <dx:MenuItem Text="Salir" Name="mnuItemSalir">
+                                                            <ItemStyle BackColor="#9999FF" />
+                                                        </dx:MenuItem>
+                                                    </Items>
+                                                    <ItemStyle BackColor="#003366" HorizontalAlign="Center" />
+                                                </dx:MenuItem>
+                                            </Items>
+                                            <Border BorderStyle="None" />
+                                        </dx:ASPxMenu>
+                                    </td>
+                                </tr>
+                            </table>
+                        </dx:PanelContent>
+                    </PanelCollection>
+                </dx:ASPxPanel>
+                <dx:ASPxPanel ID="pnlFranInf" runat="server" Width="100%" BackColor="#9999FF" Height="8px">
+                    <PanelCollection>
+                        <dx:PanelContent ID="PanelContent4" runat="server">
+                        </dx:PanelContent>
+                    </PanelCollection>
+                </dx:ASPxPanel>
+            </dx:PanelContent>
+            </PanelCollection>
+            <Border BorderStyle="None" />
+        </dx:ASPxPanel>
+
+
+        <dx:ASPxPanel ID="pnlIzq" runat="server" FixedPosition="WindowLeft" BackColor="#003366" Collapsible="True">
+            <SettingsAdaptivity CollapseAtWindowInnerWidth="1000" HideAtWindowInnerWidth="890" />
+            <SettingsCollapsing>
+                <ExpandButton GlyphType="Strips" />
+            </SettingsCollapsing>
+            <Paddings Padding="0px" />
+            <PanelCollection>
+<dx:PanelContent ID="PanelContent5" runat="server">
+    <div style="overflow: hidden; width: 205px;">
+        <dx:ASPxRoundPanel ID="rpnlMenu" runat="server" Font-Bold="True" HeaderText="[Sistema]" Width="205px" Theme="Office2010Blue">
+            <ContentPaddings PaddingLeft="0px" PaddingRight="0px" />
+            <PanelCollection>
+                <dx:PanelContent ID="PanelContent6" runat="server">
+                    <dx:ASPxPanel ID="pnlMenu" runat="server" ScrollBars="Auto" Width="200px">
+                        <PanelCollection>
+                            <dx:PanelContent ID="PanelContent7" runat="server">
+                                <dx:ASPxTreeView ID="treeMenu" runat="server" EnableTheming="True" Theme="Office2010Blue">
+                                    <Styles>
+                                        <Node>
+                                            <Paddings PaddingLeft="0px" />
+                                        </Node>
+                                    </Styles>
+                                </dx:ASPxTreeView>
+                            </dx:PanelContent>
+                        </PanelCollection>
+                    </dx:ASPxPanel>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxRoundPanel>
+    </div>
+</dx:PanelContent>
+</PanelCollection>
+            <Border BorderStyle="None" />
+        </dx:ASPxPanel>
+        <div id="Contenido">
+
+
+            <asp:ContentPlaceHolder ID="CuerpoPrincipal" runat="server">
+        
+            <table style="width:100%;">
+                <tr>
+                    <td class="filaPantallaEncabezado-alto" style="width:55%">
+                        <dx:ASPxLabel ID="lblTitulo" runat="server" style="font-weight: 700; font-style: italic; font-size: 18px" Text="ASPxLabel" Theme="Office2010Blue">
+                        </dx:ASPxLabel>
+                    </td>
+                    <td class="filaPantallaEncabezado-alto" style="width:30%">&nbsp;</td>
+                    <td class="filaPantallaEncabezadoPeriodo-alto" style="width:15%">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="filaPantallaDetalle-alto" colspan="3">
+                        <dx:ASPxPanel ID="pnlPrincipal" runat="server" Width="100%">
+                        </dx:ASPxPanel>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="filaPantallaEstado-alto" colspan="3">
+                        <dx:ASPxTextBox ID="lblStatus" runat="server" ClientInstanceName="lblStatus" Font-Bold="True" Font-Italic="True" Width="170px">
+                            <Border BorderStyle="None" />
+                        </dx:ASPxTextBox>
+                    </td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+
+
+
+
+        </div>
+        <dx:ASPxPanel ID="pnlInf" runat="server" FixedPosition="WindowBottom" BackColor="#003366" Height="19px">
+            <SettingsAdaptivity HideAtWindowInnerHeight="560" />
+            <Paddings Padding="0px" />
+            <PanelCollection>
+<dx:PanelContent ID="PanelContent8" runat="server">
+    <table style="width:100%;height:13px">
+        <tr>
+            <td style="width:30%;text-align:left">
+                <dx:ASPxLabel ID="lblUnidad" runat="server" Font-Bold="True" ForeColor="White" Text="[Unidad Propietaria]" style="font-size: 10px">
+                </dx:ASPxLabel>
+            </td>
+            <td style="width:40%;text-align:center">
+                <dx:ASPxLabel ID="lblNombreUsuario" runat="server" Font-Bold="True" ForeColor="White" Text="[Nombre Usuario]" style="font-size: 10px">
+                </dx:ASPxLabel>
+            </td>
+            <td style="width:30%;text-align:right">
+                <dx:ASPxLabel ID="lblPerfilUsuario" runat="server" Font-Bold="True" ForeColor="White" Text="[Perfil Usuario]" style="font-size: 10px">
+                </dx:ASPxLabel>
+            </td>
+        </tr>
+    </table>
+            </dx:PanelContent>
+</PanelCollection>
+            <Border BorderStyle="None" />
+        </dx:ASPxPanel>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<%@ Master Language="C#" MasterPageFile="~/Root.master" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Menu2.MainMaster" %>
+
+<%@ Register Assembly="DevExpress.Web.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<%-- DXCOMMENT: Page Main.master is a master page that contains central area layout --%>
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
+        <dx:ASPxPanel ID="LeftPane" runat="server" FixedPosition="WindowLeft" ClientInstanceName="leftPane" CssClass="leftPane" Collapsible="true">
+            <SettingsAdaptivity CollapseAtWindowInnerWidth="1023" />
+            <Styles>
+                <Panel CssClass="panel"></Panel>
+            </Styles>
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                        <div class="leftPanel">
+                            <%-- DXCOMMENT: Configure the left panel's ASPxTreeView --%>
+<dx:ASPxTreeView ID="treeMenu" runat="server">
+    <Nodes>
+        <%--<dx:TreeViewNode Text="Node 1">
+            <Nodes>
+                <dx:TreeViewNode Text="Child node 1"></dx:TreeViewNode>
+                <dx:TreeViewNode Text="Child node 2"></dx:TreeViewNode>
+                <dx:TreeViewNode Text="Child node 3"></dx:TreeViewNode>
+            </Nodes>
+        </dx:TreeViewNode>
+        <dx:TreeViewNode Text="Node 2">
+            <Nodes>
+                <dx:TreeViewNode Text="Child node 1"></dx:TreeViewNode>
+                <dx:TreeViewNode Text="Child node 2"></dx:TreeViewNode>
+                <dx:TreeViewNode Text="Child node 3"></dx:TreeViewNode>
+                <dx:TreeViewNode Text="Child node 4"></dx:TreeViewNode>
+                <dx:TreeViewNode Text="Child node 5"></dx:TreeViewNode>
+            </Nodes>
+        </dx:TreeViewNode>--%>
+        <%--<dx:TreeViewNode Text="Node 3">
+            <Nodes>
+                <dx:TreeViewNode Text="Child node 1"></dx:TreeViewNode>
+                <dx:TreeViewNode Text="Child node 2"></dx:TreeViewNode>
+            </Nodes>
+        </dx:TreeViewNode>--%>
+    </Nodes>
+</dx:ASPxTreeView>
+                        </div>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+        <div class="contentPane">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+            
+
+</asp:Content>

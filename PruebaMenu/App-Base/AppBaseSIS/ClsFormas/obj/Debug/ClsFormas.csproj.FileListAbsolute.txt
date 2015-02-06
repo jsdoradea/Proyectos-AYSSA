@@ -1,0 +1,8 @@
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFormas.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFormas.pdb
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFramework.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFramework.pdb
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.csprojResolveAssemblyReference.cache
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.dll.licenses
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.pdb

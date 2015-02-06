@@ -1,0 +1,224 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MyTemplateForm.Master" AutoEventWireup="true" CodeBehind="MyMaintenanceForm.master.cs" Inherits="ClsFormas.MyMaintenanceForm" %>
+<%@ Register assembly="DevExpress.Web.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="CuerpoMantenimiento" runat="server" contentplaceholderid="CuerpoPrincipal">
+    <script type="text/javascript">
+    function btnCols_Click(s, e) {
+        if (grdDetalleData.IsCustomizationWindowVisible())
+            grdDetalleData.HideCustomizationWindow();
+        else
+            grdDetalleData.ShowCustomizationWindow();
+        UpdateButtonText();
+    }
+    function grid_CustomizationWindowCloseUp(s, e) {
+        UpdateButtonText();
+    }
+    function UpdateButtonText() {
+        var text = grdDetalleData.IsCustomizationWindowVisible() ? "Cerrar Mod. Cols" : "Mod. Cols";
+        btnCols.SetText(text);
+    }
+</script>        
+            <table style="width:100%;">
+                <tr>
+                    <td class="filaPantallaEncabezado-alto" style="width:55%">
+                        <div id="Titulo">
+                            <asp:ContentPlaceHolder ID="titulo" runat="server">                        
+                                <dx:ASPxLabel ID="lblTitulo" runat="server" style="font-weight: 700; font-style: italic; font-size: 18px" Text="ASPxLabel" Theme="Office2010Blue">
+                                </dx:ASPxLabel>
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                    <td class="filaPantallaEncabezado-alto" style="width:30%">
+                        <div id="menu">
+                        <asp:ContentPlaceHolder ID ="menuMant" runat="server">
+                        <dx:ASPxMenu ID="mnuPrincipal" runat="server" AutoPostBack="True" OnItemClick="mnuPrincipal_ItemClick" ShowAsToolbar="True" ShowPopOutImages="True" Theme="Office2010Blue" AllowSelectItem="True">
+                            <Items>
+                                <dx:MenuItem Name="icRefresh">
+                                    <Image AlternateText="Refrescar" IconID="actions_refresh_16x16" ToolTip="Refrescar">
+                                    </Image>
+                                </dx:MenuItem>
+                                <dx:MenuItem Name="icLimpiar">
+                                    <Image AlternateText="Limpiar" IconID="actions_new_16x16" ToolTip="Limpiar">
+                                    </Image>
+                                </dx:MenuItem>
+                                <dx:MenuItem Name="icAdicionar">
+                                    <Image AlternateText="Adicionar" IconID="actions_add_16x16" ToolTip="Adicionar">
+                                    </Image>
+                                </dx:MenuItem>
+                                <dx:MenuItem Name="icModificar">
+                                    <Image AlternateText="Modificar" IconID="save_save_16x16" ToolTip="Modificar">
+                                    </Image>
+                                </dx:MenuItem>
+                                <dx:MenuItem Name="icEliminar">
+                                    <Image AlternateText="Eliminar" IconID="edit_delete_16x16" ToolTip="Eliminar">
+                                    </Image>
+                                </dx:MenuItem>
+                                <dx:MenuItem Name="icImprimir">
+                                    <Image AlternateText="Imprimir" IconID="print_print_16x16" ToolTip="Imprimir">
+                                    </Image>
+                                </dx:MenuItem>
+                                <dx:MenuItem Name="icExportar" DropDownMode="True">
+                                    <Items>
+                                        <dx:MenuItem Name="icExportarXls" Text="Excel">
+                                            <Image AlternateText="Excel" IconID="export_exporttoxlsx_16x16" ToolTip="Exporta a Excel">
+                                            </Image>
+                                        </dx:MenuItem>
+                                        <dx:MenuItem Name="icExportarDoc" Text="Documento">
+                                            <Image AlternateText="Doc" IconID="export_exporttodocx_16x16" ToolTip="Documento">
+                                            </Image>
+                                        </dx:MenuItem>
+                                        <dx:MenuItem Name="icExportarPDF" Text="PDF">
+                                            <Image AlternateText="PDF" IconID="export_exporttopdf_16x16" ToolTip="PDF">
+                                            </Image>
+                                        </dx:MenuItem>
+                                    </Items>
+                                    <Image AlternateText="Exportar" IconID="export_export_16x16" ToolTip="Exportar">
+                                    </Image>
+                                </dx:MenuItem>
+                            </Items>
+                        </dx:ASPxMenu>
+                            </asp:ContentPlaceHolder>
+                            </div>
+                    </td>
+                    <td class="filaPantallaEncabezadoPeriodo-alto" style="width:15%">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="filaPantallaDetalle-alto" colspan="3">
+                    <div id="contenido">
+                    <asp:ContentPlaceHolder ID="pnelMant" runat="server">
+                        <dx:ASPxPanel ID="pnlPrincipal" runat="server" Width="100%">
+                            <PanelCollection>
+<dx:PanelContent runat="server">
+    <dx:ASPxPageControl ID="tabOpciones" runat="server" ActiveTabIndex="0" Width="100%" ClientInstanceName="tabOpciones" Theme="Office2010Blue">
+        <TabPages>
+            <dx:TabPage Name="pgeDatos" Text="Datos">
+                <ContentCollection>
+                    <dx:ContentControl runat="server">
+                        <table style="width:100%;">
+                            <tr>
+                                <td colspan="2">
+                                    <dx:ASPxGridView ID="grdDetalleData" runat="server" AutoGenerateColumns="False" ClientInstanceName="grdDetalleData" EnableTheming="True" Theme="Office2010Blue" Width="100%">
+                                        <ClientSideEvents CustomizationWindowCloseUp="grid_CustomizationWindowCloseUp" SelectionChanged="grid_SelectionChanged" />
+                                        <Columns>
+                                            <dx:GridViewCommandColumn ShowClearFilterButton="True" ShowInCustomizationForm="True" ShowSelectCheckbox="True" VisibleIndex="0">
+                                            </dx:GridViewCommandColumn>
+                                        </Columns>
+                                        <SettingsBehavior AllowSelectSingleRowOnly="True" EnableCustomizationWindow="True" />
+                                        <SettingsPager NumericButtonCount="8" PageSize="8">
+                                            <Summary AllPagesText="Páginas: {0} - {1} ({2} items)" EmptyText="No hay datos para paginar" Text="Página {0} de {1} ({2} items)" />
+                                            <PageSizeItemSettings AllItemText="Todos" Caption="Mostrar Items:" Visible="True">
+                                            </PageSizeItemSettings>
+                                        </SettingsPager>
+                                        <Settings ShowFilterRow="True" ShowFooter="True" ShowGroupPanel="True" />
+                                        <SettingsText EmptyDataRow="No hay datos para mostrar" GroupPanel="Arrastre un encabezado de columna para agrupar por esa columna" GroupContinuedOnNextPage="(Continúa en pag. sig.)" HeaderFilterShowAll="(Todos)" HeaderFilterShowBlanks="(En Blanco)" HeaderFilterShowNonBlanks="(No en Blanco)" />
+                                        <SettingsCommandButton>
+                                            <ClearFilterButton ButtonType="Link" Text="Limpiar">
+                                            </ClearFilterButton>
+                                        </SettingsCommandButton>
+                                        <SettingsDataSecurity AllowDelete="False" AllowEdit="False" AllowInsert="False" />
+                                    </dx:ASPxGridView>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <dx:ASPxGridViewExporter ID="gridExport" runat="server" GridViewID="grdDetalleData">
+                                    </dx:ASPxGridViewExporter>
+                                </td>
+                                <td style="text-align: right">
+                                    <dx:ASPxButton ID="btnCols" runat="server" Text="Mod. Cols" Theme="Office2010Blue" AutoPostBack="False" UseSubmitBehavior="False">
+                                        <ClientSideEvents Click="btnCols_Click" />
+                                    </dx:ASPxButton>
+                                </td>
+                            </tr>
+                        </table>
+                    </dx:ContentControl>
+                </ContentCollection>
+            </dx:TabPage>
+            <dx:TabPage Name="pgeDetalle" Text="Detalle">
+                <ContentCollection>
+                    <dx:ContentControl runat="server">
+                        <dx:ASPxRoundPanel ID="ASPxRoundPanel1" runat="server" HeaderText="" Theme="Office2010Blue" Width="100%">
+                            <PanelCollection>
+                                <dx:PanelContent runat="server">
+                                    <table style="width:100%;">
+                                        <tr>
+                                            <td class="celdaIzquierda-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleI-ancho">&nbsp;</td>
+                                            <td class="celdaMedio-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleI-ancho" colspan="2">&nbsp;</td>
+                                            <td class="celdaDerecha-ancho">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="celdaIzquierda-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleI-ancho">&nbsp;</td>
+                                            <td class="celdaMedio-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleI-ancho" colspan="2">&nbsp;</td>
+                                            <td class="celdaDerecha-ancho">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="celdaIzquierda-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleI-ancho">&nbsp;</td>
+                                            <td class="celdaMedio-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleI-ancho" colspan="2">&nbsp;</td>
+                                            <td class="celdaDerecha-ancho">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="celdaIzquierda-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleI-ancho">&nbsp;</td>
+                                            <td class="celdaMedio-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleD-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleC-ancho">&nbsp;</td>
+                                            <td class="celdaDetalleC-ancho">
+                                                <dx:ASPxButton ID="cmdRegresar" runat="server" AutoPostBack="False" ClientInstanceName="cmdRegresar" Text="Regresar" UseSubmitBehavior="False" >
+                                                    <ClientSideEvents Click="function(s, e) {
+	tabOpciones.SetActiveTab(tabOpciones.GetTabByName('pgeDatos'));
+	lblStatus.SetText(&quot;&quot;);
+}" />
+                                                </dx:ASPxButton>
+                                            </td>
+                                            <td class="celdaDerecha-ancho">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </dx:PanelContent>
+                            </PanelCollection>
+                        </dx:ASPxRoundPanel>
+                    </dx:ContentControl>
+                </ContentCollection>
+            </dx:TabPage>
+        </TabPages>
+    </dx:ASPxPageControl>
+                                </dx:PanelContent>
+</PanelCollection>
+                        </dx:ASPxPanel>
+                        </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="filaPantallaEstado-alto" colspan="3">
+                        <div id="Estatus">
+                            <asp:ContentPlaceHolder ID="BarraEstatus" runat="server">
+                                <dx:ASPxTextBox ID="lblStatus" runat="server" ClientInstanceName="lblStatus" Font-Bold="True" Font-Italic="True" Width="170px">
+                                    <Border BorderStyle="None" />
+                                </dx:ASPxTextBox>
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        
+        </asp:Content>
+
+
