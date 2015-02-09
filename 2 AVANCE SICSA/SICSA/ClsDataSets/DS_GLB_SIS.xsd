@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_GLB_SIS" targetNamespace="http://tempuri.org/DS_GLB_SIS.xsd" xmlns:mstns="http://tempuri.org/DS_GLB_SIS.xsd" xmlns="http://tempuri.org/DS_GLB_SIS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_GLB_SIS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_GLB_SIS" msprop:Generator_UserDSName="DS_GLB_SIS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GLB_OPCIONES_SISTEMA" msprop:Generator_TableClassName="GLB_OPCIONES_SISTEMADataTable" msprop:Generator_TableVarName="tableGLB_OPCIONES_SISTEMA" msprop:Generator_RowChangedName="GLB_OPCIONES_SISTEMARowChanged" msprop:Generator_TablePropName="GLB_OPCIONES_SISTEMA" msprop:Generator_RowDeletingName="GLB_OPCIONES_SISTEMARowDeleting" msprop:Generator_RowChangingName="GLB_OPCIONES_SISTEMARowChanging" msprop:Generator_RowEvHandlerName="GLB_OPCIONES_SISTEMARowChangeEventHandler" msprop:Generator_RowDeletedName="GLB_OPCIONES_SISTEMARowDeleted" msprop:Generator_RowClassName="GLB_OPCIONES_SISTEMARow" msprop:Generator_UserTableName="GLB_OPCIONES_SISTEMA" msprop:Generator_RowEvArgName="GLB_OPCIONES_SISTEMARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_CODI_OPCI_SIST" msprop:Generator_ColumnVarNameInTable="columnCD_CODI_OPCI_SIST" msprop:Generator_ColumnPropNameInRow="CD_CODI_OPCI_SIST" msprop:Generator_ColumnPropNameInTable="CD_CODI_OPCI_SISTColumn" msprop:Generator_UserColumnName="CD_CODI_OPCI_SIST" type="xs:string" />
+              <xs:element name="DS_CODI_OPCI_SIST" msprop:Generator_ColumnVarNameInTable="columnDS_CODI_OPCI_SIST" msprop:Generator_ColumnPropNameInRow="DS_CODI_OPCI_SIST" msprop:Generator_ColumnPropNameInTable="DS_CODI_OPCI_SISTColumn" msprop:Generator_UserColumnName="DS_CODI_OPCI_SIST" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_NOMBRE_FORMA" msprop:Generator_ColumnVarNameInTable="columnDS_NOMBRE_FORMA" msprop:Generator_ColumnPropNameInRow="DS_NOMBRE_FORMA" msprop:Generator_ColumnPropNameInTable="DS_NOMBRE_FORMAColumn" msprop:Generator_UserColumnName="DS_NOMBRE_FORMA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GLB_UNIDADES_TEG" msprop:Generator_TableClassName="GLB_UNIDADES_TEGDataTable" msprop:Generator_TableVarName="tableGLB_UNIDADES_TEG" msprop:Generator_TablePropName="GLB_UNIDADES_TEG" msprop:Generator_RowDeletingName="GLB_UNIDADES_TEGRowDeleting" msprop:Generator_RowChangingName="GLB_UNIDADES_TEGRowChanging" msprop:Generator_RowEvHandlerName="GLB_UNIDADES_TEGRowChangeEventHandler" msprop:Generator_RowDeletedName="GLB_UNIDADES_TEGRowDeleted" msprop:Generator_UserTableName="GLB_UNIDADES_TEG" msprop:Generator_RowChangedName="GLB_UNIDADES_TEGRowChanged" msprop:Generator_RowEvArgName="GLB_UNIDADES_TEGRowChangeEvent" msprop:Generator_RowClassName="GLB_UNIDADES_TEGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_UNIDAD" msprop:Generator_ColumnVarNameInTable="columnCD_UNIDAD" msprop:Generator_ColumnPropNameInRow="CD_UNIDAD" msprop:Generator_ColumnPropNameInTable="CD_UNIDADColumn" msprop:Generator_UserColumnName="CD_UNIDAD" type="xs:long" />
+              <xs:element name="DS_UNIDAD" msprop:Generator_ColumnVarNameInTable="columnDS_UNIDAD" msprop:Generator_ColumnPropNameInRow="DS_UNIDAD" msprop:Generator_ColumnPropNameInTable="DS_UNIDADColumn" msprop:Generator_UserColumnName="DS_UNIDAD" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GLB_EMPLEADOS_TEG" msprop:Generator_TableClassName="GLB_EMPLEADOS_TEGDataTable" msprop:Generator_TableVarName="tableGLB_EMPLEADOS_TEG" msprop:Generator_RowChangedName="GLB_EMPLEADOS_TEGRowChanged" msprop:Generator_TablePropName="GLB_EMPLEADOS_TEG" msprop:Generator_RowDeletingName="GLB_EMPLEADOS_TEGRowDeleting" msprop:Generator_RowChangingName="GLB_EMPLEADOS_TEGRowChanging" msprop:Generator_RowEvHandlerName="GLB_EMPLEADOS_TEGRowChangeEventHandler" msprop:Generator_RowDeletedName="GLB_EMPLEADOS_TEGRowDeleted" msprop:Generator_RowClassName="GLB_EMPLEADOS_TEGRow" msprop:Generator_UserTableName="GLB_EMPLEADOS_TEG" msprop:Generator_RowEvArgName="GLB_EMPLEADOS_TEGRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_EMPLEADO" msprop:Generator_ColumnVarNameInTable="columnCD_EMPLEADO" msprop:Generator_ColumnPropNameInRow="CD_EMPLEADO" msprop:Generator_ColumnPropNameInTable="CD_EMPLEADOColumn" msprop:Generator_UserColumnName="CD_EMPLEADO" type="xs:string" />
+              <xs:element name="DS_NOMBRE_EMPLEADO" msprop:Generator_ColumnVarNameInTable="columnDS_NOMBRE_EMPLEADO" msprop:Generator_ColumnPropNameInRow="DS_NOMBRE_EMPLEADO" msprop:Generator_ColumnPropNameInTable="DS_NOMBRE_EMPLEADOColumn" msprop:Generator_UserColumnName="DS_NOMBRE_EMPLEADO" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_APELLIDO_EMPLEADO" msprop:Generator_ColumnVarNameInTable="columnDS_APELLIDO_EMPLEADO" msprop:Generator_ColumnPropNameInRow="DS_APELLIDO_EMPLEADO" msprop:Generator_ColumnPropNameInTable="DS_APELLIDO_EMPLEADOColumn" msprop:Generator_UserColumnName="DS_APELLIDO_EMPLEADO" type="xs:string" minOccurs="0" />
+              <xs:element name="CD_ESTADO" msprop:Generator_ColumnVarNameInTable="columnCD_ESTADO" msprop:Generator_ColumnPropNameInRow="CD_ESTADO" msprop:Generator_ColumnPropNameInTable="CD_ESTADOColumn" msprop:Generator_UserColumnName="CD_ESTADO" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_ESTADO" msprop:Generator_ColumnVarNameInTable="columnDS_ESTADO" msprop:Generator_ColumnPropNameInRow="DS_ESTADO" msprop:Generator_ColumnPropNameInTable="DS_ESTADOColumn" msprop:Generator_UserColumnName="DS_ESTADO" type="xs:string" minOccurs="0" />
+              <xs:element name="CD_UNIDAD" msprop:Generator_ColumnVarNameInTable="columnCD_UNIDAD" msprop:Generator_ColumnPropNameInRow="CD_UNIDAD" msprop:Generator_ColumnPropNameInTable="CD_UNIDADColumn" msprop:Generator_UserColumnName="CD_UNIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_UNIDAD" msprop:Generator_ColumnVarNameInTable="columnDS_UNIDAD" msprop:Generator_ColumnPropNameInRow="DS_UNIDAD" msprop:Generator_ColumnPropNameInTable="DS_UNIDADColumn" msprop:Generator_UserColumnName="DS_UNIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_CORREO" msprop:Generator_ColumnVarNameInTable="columnDS_CORREO" msprop:Generator_ColumnPropNameInRow="DS_CORREO" msprop:Generator_ColumnPropNameInTable="DS_CORREOColumn" msprop:Generator_UserColumnName="DS_CORREO" type="xs:string" minOccurs="0" />
+              <xs:element name="CD_CARGO_INST" msprop:Generator_ColumnVarNameInTable="columnCD_CARGO_INST" msprop:Generator_ColumnPropNameInRow="CD_CARGO_INST" msprop:Generator_ColumnPropNameInTable="CD_CARGO_INSTColumn" msprop:Generator_UserColumnName="CD_CARGO_INST" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_CARGO_INST" msprop:Generator_ColumnVarNameInTable="columnDS_CARGO_INST" msprop:Generator_ColumnPropNameInRow="DS_CARGO_INST" msprop:Generator_ColumnPropNameInTable="DS_CARGO_INSTColumn" msprop:Generator_UserColumnName="DS_CARGO_INST" type="xs:string" minOccurs="0" />
+              <xs:element name="CD_TITULO" msprop:Generator_ColumnVarNameInTable="columnCD_TITULO" msprop:Generator_ColumnPropNameInRow="CD_TITULO" msprop:Generator_ColumnPropNameInTable="CD_TITULOColumn" msprop:Generator_UserColumnName="CD_TITULO" type="xs:string" minOccurs="0" />
+              <xs:element name="DS_TITULO" msprop:Generator_ColumnVarNameInTable="columnDS_TITULO" msprop:Generator_ColumnPropNameInRow="DS_TITULO" msprop:Generator_ColumnPropNameInTable="DS_TITULOColumn" msprop:Generator_UserColumnName="DS_TITULO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GLB_CARGOS_INSTITUCIONALES" msprop:Generator_TableClassName="GLB_CARGOS_INSTITUCIONALESDataTable" msprop:Generator_TableVarName="tableGLB_CARGOS_INSTITUCIONALES" msprop:Generator_RowChangedName="GLB_CARGOS_INSTITUCIONALESRowChanged" msprop:Generator_TablePropName="GLB_CARGOS_INSTITUCIONALES" msprop:Generator_RowDeletingName="GLB_CARGOS_INSTITUCIONALESRowDeleting" msprop:Generator_RowChangingName="GLB_CARGOS_INSTITUCIONALESRowChanging" msprop:Generator_RowEvHandlerName="GLB_CARGOS_INSTITUCIONALESRowChangeEventHandler" msprop:Generator_RowDeletedName="GLB_CARGOS_INSTITUCIONALESRowDeleted" msprop:Generator_RowClassName="GLB_CARGOS_INSTITUCIONALESRow" msprop:Generator_UserTableName="GLB_CARGOS_INSTITUCIONALES" msprop:Generator_RowEvArgName="GLB_CARGOS_INSTITUCIONALESRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_CARGO_INST" msprop:Generator_ColumnVarNameInTable="columnCD_CARGO_INST" msprop:Generator_ColumnPropNameInRow="CD_CARGO_INST" msprop:Generator_ColumnPropNameInTable="CD_CARGO_INSTColumn" msprop:Generator_UserColumnName="CD_CARGO_INST" type="xs:string" />
+              <xs:element name="DS_CARGO_INST" msprop:Generator_ColumnVarNameInTable="columnDS_CARGO_INST" msprop:Generator_ColumnPropNameInRow="DS_CARGO_INST" msprop:Generator_ColumnPropNameInTable="DS_CARGO_INSTColumn" msprop:Generator_UserColumnName="DS_CARGO_INST" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GLB_TITULOS_ACADEMICOS" msprop:Generator_TableClassName="GLB_TITULOS_ACADEMICOSDataTable" msprop:Generator_TableVarName="tableGLB_TITULOS_ACADEMICOS" msprop:Generator_RowChangedName="GLB_TITULOS_ACADEMICOSRowChanged" msprop:Generator_TablePropName="GLB_TITULOS_ACADEMICOS" msprop:Generator_RowDeletingName="GLB_TITULOS_ACADEMICOSRowDeleting" msprop:Generator_RowChangingName="GLB_TITULOS_ACADEMICOSRowChanging" msprop:Generator_RowEvHandlerName="GLB_TITULOS_ACADEMICOSRowChangeEventHandler" msprop:Generator_RowDeletedName="GLB_TITULOS_ACADEMICOSRowDeleted" msprop:Generator_RowClassName="GLB_TITULOS_ACADEMICOSRow" msprop:Generator_UserTableName="GLB_TITULOS_ACADEMICOS" msprop:Generator_RowEvArgName="GLB_TITULOS_ACADEMICOSRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CD_TITULO" msprop:Generator_ColumnVarNameInTable="columnCD_TITULO" msprop:Generator_ColumnPropNameInRow="CD_TITULO" msprop:Generator_ColumnPropNameInTable="CD_TITULOColumn" msprop:Generator_UserColumnName="CD_TITULO" type="xs:string" />
+              <xs:element name="DS_TITULO" msprop:Generator_ColumnVarNameInTable="columnDS_TITULO" msprop:Generator_ColumnPropNameInRow="DS_TITULO" msprop:Generator_ColumnPropNameInTable="DS_TITULOColumn" msprop:Generator_UserColumnName="DS_TITULO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GLB_OPCIONES_SISTEMA" />
+      <xs:field xpath="mstns:CD_CODI_OPCI_SIST" />
+    </xs:unique>
+    <xs:unique name="GLB_UNIDADES_TEG_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GLB_UNIDADES_TEG" />
+      <xs:field xpath="mstns:CD_UNIDAD" />
+    </xs:unique>
+    <xs:unique name="GLB_EMPLEADOS_TEG_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GLB_EMPLEADOS_TEG" />
+      <xs:field xpath="mstns:CD_EMPLEADO" />
+    </xs:unique>
+    <xs:unique name="GLB_CARGOS_INSTITUCIONALES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GLB_CARGOS_INSTITUCIONALES" />
+      <xs:field xpath="mstns:CD_CARGO_INST" />
+    </xs:unique>
+    <xs:unique name="GLB_TITULOS_ACADEMICOS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GLB_TITULOS_ACADEMICOS" />
+      <xs:field xpath="mstns:CD_TITULO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

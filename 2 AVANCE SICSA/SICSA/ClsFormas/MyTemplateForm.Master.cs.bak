@@ -1,0 +1,114 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using SIS.Framework.Common;
+using DevExpress.Web.ASPxPanel;
+
+namespace ClsFormas
+{
+    public partial class MyTemplateForm : System.Web.UI.MasterPage
+    {
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+    }
+
+    public partial class FormaSISWeb : System.Web.UI.Page
+    {
+        protected SIS.Framework.Common.ClsSistema _DataSistema;
+        protected string _ConexionBaseDato;
+        protected string _RefrescaCamposEnCarga;
+
+        protected string _NecesitaPeriodoContable = "N";
+        protected string _NecesitaCodigoEmpresa = "N";
+
+        protected bool _CamposEnlazados = false;
+        protected string _Ejercicio = "";
+        protected string _Periodo = "";
+
+        public FormaSISWeb()
+        {
+            _DataSistema = new SIS.Framework.Common.ClsSistema();
+        }
+
+        public FormaSISWeb(SIS.Framework.Common.ClsSistema DataSistema)
+        {
+            _DataSistema = DataSistema;
+            _ConexionBaseDato = DataSistema.ConexionBaseDato;
+
+            _NecesitaCodigoEmpresa = DataSistema.NecesitaCodigoEmpresa;
+            _NecesitaPeriodoContable = DataSistema.NecesitaPeriodoContable;
+        }
+
+
+        public virtual void Limpiar(DevExpress.Web.ASPxEditors.ASPxLabel lblStatus)
+        {
+            LimpiaStatus(lblStatus);
+        }
+
+        protected virtual void RefrescaInfo()
+        {
+
+        }
+
+
+        public virtual void Salir()
+        {
+            this.Dispose();
+        }
+
+        protected void EnlazaCampos()
+        {
+        }
+
+        protected virtual void IniciaEnlaceCampos()
+        {
+
+        }
+
+        protected virtual void FinalizaEnlaceCampos()
+        {
+
+        }
+
+
+
+        private void LimpiaStatus(DevExpress.Web.ASPxEditors.ASPxLabel lblStatus)
+        {
+            try
+            {
+                lblStatus.Text = "";
+            }
+            catch (Exception ex)
+            {
+                lblStatus.Text = ex.Message;
+            }
+        }
+
+        protected virtual void Page_Init(object sender, EventArgs e)
+        {
+            if (_RefrescaCamposEnCarga == "S")
+            {
+                RefrescaInfo();
+            }
+
+        }
+
+        protected void DespliegaMensaje(string Mensaje)
+        {
+            Page.ClientScript.RegisterStartupScript(Page.GetType(), "MessageBox", "<script language='javascript'>alert('" + Mensaje + "');</script>");
+        }
+
+
+        public virtual void ExportaGrid()
+        {
+
+        }
+    }
+}

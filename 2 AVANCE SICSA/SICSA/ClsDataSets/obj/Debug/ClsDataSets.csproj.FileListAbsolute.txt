@@ -1,0 +1,5 @@
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\bin\ClsDataSets.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\bin\ClsDataSets.pdb
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\obj\Debug\ClsDataSets.csprojResolveAssemblyReference.cache
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\obj\Debug\ClsDataSets.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\obj\Debug\ClsDataSets.pdb
