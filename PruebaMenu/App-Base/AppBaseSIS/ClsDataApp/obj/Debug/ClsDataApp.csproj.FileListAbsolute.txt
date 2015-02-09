@@ -1,9 +1,0 @@
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\bin\ClsDataApp.dll
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\bin\ClsDataApp.pdb
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\bin\ClsDataSets.dll
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\bin\ClsFramework.dll
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\bin\ClsDataSets.pdb
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\bin\ClsFramework.pdb
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\obj\Debug\ClsDataApp.csprojResolveAssemblyReference.cache
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\obj\Debug\ClsDataApp.dll
-F:\Compartida\App-Base\AppBaseSIS\ClsDataApp\obj\Debug\ClsDataApp.pdb

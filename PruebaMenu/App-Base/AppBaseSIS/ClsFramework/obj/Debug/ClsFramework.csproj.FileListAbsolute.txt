@@ -1,5 +1,0 @@
-F:\Compartida\App-Base\AppBaseSIS\ClsFramework\bin\ClsFramework.dll
-F:\Compartida\App-Base\AppBaseSIS\ClsFramework\bin\ClsFramework.pdb
-F:\Compartida\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.csprojResolveAssemblyReference.cache
-F:\Compartida\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.dll
-F:\Compartida\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.pdb
