@@ -1,0 +1,4 @@
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\bin\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\bin\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\obj\Release\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\obj\Release\ClsFramework.pdb

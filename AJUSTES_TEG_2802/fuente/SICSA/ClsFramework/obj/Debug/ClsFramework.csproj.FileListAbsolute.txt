@@ -1,0 +1,15 @@
+F:\Compartida\App-Base\AppBaseSIS\ClsFramework\bin\ClsFramework.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFramework\bin\ClsFramework.pdb
+F:\Compartida\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.csprojResolveAssemblyReference.cache
+F:\Compartida\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFramework\bin\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFramework\bin\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.csprojResolveAssemblyReference.cache
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFramework\obj\Debug\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\bin\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\bin\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\obj\Debug\ClsFramework.csprojResolveAssemblyReference.cache
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\obj\Debug\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFramework\obj\Debug\ClsFramework.pdb

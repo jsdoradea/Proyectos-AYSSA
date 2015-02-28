@@ -1,0 +1,4 @@
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\bin\ClsDataSets.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\bin\ClsDataSets.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\obj\Release\ClsDataSets.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\obj\Release\ClsDataSets.pdb

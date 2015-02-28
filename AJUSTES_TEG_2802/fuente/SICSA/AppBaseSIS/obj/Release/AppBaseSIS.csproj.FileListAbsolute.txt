@@ -1,0 +1,4 @@
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\AppBaseSIS\bin\AppBaseSIS.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\AppBaseSIS\bin\AppBaseSIS.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\AppBaseSIS\obj\Release\AppBaseSIS.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\AppBaseSIS\obj\Release\AppBaseSIS.pdb
