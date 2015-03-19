@@ -1,0 +1,8 @@
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFormas.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFormas.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Release\ClsFormas.csprojResolveAssemblyReference.cache
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Release\ClsFormas.dll.licenses
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Release\ClsFormas.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Release\ClsFormas.pdb

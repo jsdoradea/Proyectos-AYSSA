@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyTemplateForm.master.cs" Inherits="ClsFormas.MyTemplateForm" %>
+
+<%@ Register assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxEditors" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v14.1, Version=14.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxPanel" tagprefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>MyTemplateForm</title>
+    <style type="text/css">
+        .filaPantallaDetalle-alto {
+            height: 90%;
+        }
+        .filaPantallaEncabezado-alto {
+            height: 7%;
+        }
+        .filaPantallaEncabezadoPeriodo-alto {
+            height: 7%;
+            float: right;
+        }
+        .filaPantallaEstado-alto {
+            height: 3%;
+            text-align: center;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="CuerpoPrincipal" runat="server">
+        
+            <table style="width:100%;">
+                <tr>
+                    <td class="filaPantallaEncabezado-alto" style="width:55%">
+                        <dx:ASPxLabel ID="lblTitulo" runat="server" style="font-weight: 700; font-style: italic; font-size: 18px" Text="ASPxLabel" Theme="Office2010Blue">
+                        </dx:ASPxLabel>
+                    </td>
+                    <td class="filaPantallaEncabezado-alto" style="width:30%">&nbsp;</td>
+                    <td class="filaPantallaEncabezadoPeriodo-alto" style="width:15%">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="filaPantallaDetalle-alto" colspan="3">
+                        <dx:ASPxPanel ID="pnlPrincipal" runat="server" Width="100%" Height="400px">
+                        </dx:ASPxPanel>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="filaPantallaEstado-alto" colspan="3">
+                        <dx:ASPxLabel ID="lblStatus" runat="server" style="font-size: 10px; font-weight: 700">
+                        </dx:ASPxLabel>
+                    </td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

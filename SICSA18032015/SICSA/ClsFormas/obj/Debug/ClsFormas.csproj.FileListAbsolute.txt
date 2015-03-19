@@ -1,0 +1,24 @@
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFormas.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFormas.pdb
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFramework.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\bin\ClsFramework.pdb
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.csprojResolveAssemblyReference.cache
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.dll.licenses
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\bin\ClsFormas.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\bin\ClsFormas.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\bin\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\bin\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.csprojResolveAssemblyReference.cache
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.dll.licenses
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\App-Base\AppBaseSIS\ClsFormas\obj\Debug\ClsFormas.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFormas.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFormas.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFramework.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\bin\ClsFramework.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Debug\ClsFormas.csprojResolveAssemblyReference.cache
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Debug\ClsFormas.dll.licenses
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Debug\ClsFormas.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsFormas\obj\Debug\ClsFormas.pdb

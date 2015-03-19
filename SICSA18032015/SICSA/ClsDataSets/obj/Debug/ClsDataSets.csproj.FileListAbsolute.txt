@@ -1,0 +1,10 @@
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\bin\ClsDataSets.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\bin\ClsDataSets.pdb
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\obj\Debug\ClsDataSets.csprojResolveAssemblyReference.cache
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\obj\Debug\ClsDataSets.dll
+F:\Compartida\App-Base\AppBaseSIS\ClsDataSets\obj\Debug\ClsDataSets.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\bin\ClsDataSets.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\bin\ClsDataSets.pdb
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\obj\Debug\ClsDataSets.csprojResolveAssemblyReference.cache
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\obj\Debug\ClsDataSets.dll
+C:\Users\XPS14z\Documents\Visual Studio 2012\Projects\SICSA\ClsDataSets\obj\Debug\ClsDataSets.pdb
